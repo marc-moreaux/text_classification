@@ -75,8 +75,8 @@ class LogisticRegression(object):
 
         # symbolic description of how to compute prediction as class whose
         # probability is maximal
-        # self.y_pred = T.argmax(self.p_y_given_x, axis=1)
-        self.y_pred = T.nnet.hard_sigmoid( (self.p_y_given_x-0.5)*16 )
+        self.y_pred = T.argmax(self.p_y_given_x, axis=1)
+        # self.y_pred = T.nnet.hard_sigmoid( (self.p_y_given_x-0.5)*16 )
         
         # end-snippet-1
 
@@ -90,16 +90,17 @@ class LogisticRegression(object):
         # end-snippet-2
 
     def errors(self, y):
-
-        if y.ndim != self.y_pred.ndim:
+        tmp = T.argmax(y,axis=1)
+        if tmp.ndim != self.y_pred.ndim:
             raise TypeError(
                 'y should have the same shape as self.y_pred',
-                ('y', y.type, 'y_pred', self.y_pred.type)
-            )
+                ('y', y.type, 'y_pred', self.y_pred.type) )
+
+        # check if y is of the correct datatype
         if y.dtype.startswith('int'):
             # the T.neq operator returns a vector of 0s and 1s, where 1
             # represents a mistake in prediction
-            return T.mean(T.neq(self.y_pred, y))
+            return T.mean(T.neq(self.y_pred, tmp))
         else:
             raise NotImplementedError()
 
@@ -336,7 +337,6 @@ def sgd_optimization_mnist(learning_rate=0.13, n_epochs=1000,dataset='mnist.pkl.
     print >> sys.stderr, ('The code for file ' +
                           os.path.split(__file__)[1] +
                           ' ran for %.1fs' % ((end_time - start_time)))
-
 
 
 class LogisticRegressionOrig(object):
@@ -727,4 +727,4 @@ def sgd_optimization_mnistOrig(learning_rate=0.13, n_epochs=1000,dataset='mnist.
 
 if __name__ == '__main__':
     # load_data()
-    sgd_optimization_mnistOrig()
+    sgd_optimization_mnist()
