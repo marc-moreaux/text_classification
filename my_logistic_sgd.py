@@ -41,8 +41,8 @@ class LogisticRegression(object):
 
         # symbolic description of how to compute prediction as class whose
         # probability is maximal
-        self.y_pred = T.argmax(self.p_y_given_x, axis=1)
-        # self.y_pred = T.nnet.hard_sigmoid( (self.p_y_given_x-0.5)*16 )
+        # self.y_pred = T.argmax(self.p_y_given_x, axis=1)
+        self.y_pred = T.nnet.hard_sigmoid( (self.p_y_given_x-0.5)*16 )
         
         # end-snippet-1
 
@@ -56,8 +56,8 @@ class LogisticRegression(object):
         # end-snippet-2
 
     def errors(self, y):
-        tmp = T.argmax(y,axis=1)
-        if tmp.ndim != self.y_pred.ndim:
+        
+        if y.ndim != self.y_pred.ndim:
             raise TypeError(
                 'y should have the same shape as self.y_pred',
                 ('y', y.type, 'y_pred', self.y_pred.type) )
@@ -66,7 +66,7 @@ class LogisticRegression(object):
         if y.dtype.startswith('int'):
             # the T.neq operator returns a vector of 0s and 1s, where 1
             # represents a mistake in prediction
-            return T.mean(T.neq(self.y_pred, tmp))
+            return T.mean(T.neq(self.y_pred, y))
         else:
             raise NotImplementedError()
 
@@ -126,7 +126,8 @@ def load_data(dataset='data/quintile'):
     rval = [(train_set_x, train_set_y), (valid_set_x, valid_set_y),
             (test_set_x, test_set_y)]
     return rval
-def sgd_optimization_mnist(learning_rate=0.13, n_epochs=1000,dataset='mnist.pkl.gz',batch_size=600):
+
+def sgd_optimization_tradeshift(learning_rate=0.13, n_epochs=1000,dataset='data/quintile',batch_size=600):
     """
     Demonstrate stochastic gradient descent optimization of a log-linear
     model
@@ -171,7 +172,7 @@ def sgd_optimization_mnist(learning_rate=0.13, n_epochs=1000,dataset='mnist.pkl.
 
     # construct the logistic regression class
     # Each MNIST image has size 28*28
-    classifier = LogisticRegression(input=x, n_in=28 * 28, n_out=10)
+    classifier = LogisticRegression(input=x, n_in=145, n_out=33)
 
     # the cost we minimize during training is the negative log likelihood of
     # the model in symbolic format
@@ -312,3 +313,9 @@ def sgd_optimization_mnist(learning_rate=0.13, n_epochs=1000,dataset='mnist.pkl.
                           os.path.split(__file__)[1] +
                           ' ran for %.1fs' % ((end_time - start_time)))
 
+
+
+
+if __name__ == '__main__':
+    # load_data()
+    sgd_optimization_tradeshift()
