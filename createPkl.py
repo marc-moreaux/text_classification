@@ -10,96 +10,8 @@ import matplotlib.pylab as plt
 
 hashList = {} # set a commun hashlist
 QUINITLE_SIZE = 3400 # default is 340000
+DATA_PATH = '/home/marc/git/text_classification/data/'
 
-
-# manage the hash dictionary and retrive the id of a given hash
-def getIdHash(elem,hashList):
-    m = re.search('([^,]+=)', elem )
-    if m: 
-        if m.group(0) not in hashList:
-            hashList[m.group(0)] = len(hashList)
-        return hashList[m.group(0)]
-    else :
-        return -1
-
-# Create a new csv from an old one. 
-def reWriteCsvAndLabels(quintile=1):
-
-    # Input is 'train.csv' 
-    # Output is 'train'+quintile+'.pkl.gz'
-    inputFileTrain='/home/marc/Desktop/miProject/train.csv.gz'
-    inputFileLabel='/home/marc/Desktop/miProject/trainLabels.csv.gz'
-
-    # Define begining and end index
-    # nbRowsTodo = sum(1 for row in csvFileReader)
-    # All file is 1700001 lines. 170/5=34
-    startAt = (quintile-1)*QUINITLE_SIZE
-    nbRowsTodo = QUINITLE_SIZE
-
-    # open the reader CSV reader
-    with gzip.open(inputFileTrain, 'rb') as csvFileReader:
-        fileReader  = csv.reader(csvFileReader , delimiter=',', quotechar='|')
-        
-
-        # Initialize array and skip some lines
-        sample = numpy.ndarray(  (nbRowsTodo,len(fileReader.next())-1), dtype='float32'  )
-        for i in range(startAt):
-            fileReader.next()
-
-        
-        # iterate through columns to retrieve the data
-        for rowIter,row in enumerate(fileReader):
-            for colIter,elem in enumerate(row):
-
-
-                # Convert all elems to a matrice
-                if elem == '' :
-                    sample[rowIter][colIter-1] = -1
-                elif elem == 'NO':
-                    sample[rowIter][colIter-1] = 0
-                elif elem == 'YES':
-                    sample[rowIter][colIter-1] = 1
-                elif re.search('([^,]+=)', elem ):
-                    sample[rowIter][colIter-1] = getIdHash(elem,hashList)
-                else:
-                    sample[rowIter][colIter-1] = float(elem)
-
-
-            # Show progress
-            if not rowIter % 1000:
-                print rowIter
-
-            # For testing purpose, end iteration before end
-            if rowIter > nbRowsTodo-2:
-                break
-    
-
-    # open the reader CSV reader
-    with gzip.open(inputFileLabel, 'rb') as csvFileReader:
-        fileReader  = csv.reader(csvFileReader , delimiter=',', quotechar='|')
-        
-        # Initialize array and skip some lines
-        labels = numpy.ndarray(  (nbRowsTodo,len(fileReader.next())-1), dtype='float32'  )
-        for i in range(startAt):
-            fileReader.next()
-
-
-        # Csv lables to matrix labels
-        for rowIter,row in enumerate(fileReader):
-            labels[rowIter] = [float(i) for i in row[1:]]
-
-
-            # Show progress
-            if not rowIter % 200:
-                print rowIter
-
-            # End before the end of the file
-            if rowIter > nbRowsTodo-2:
-                break
-
-
-    saveData( (sample,labels), str(quintile) ,QUINITLE_SIZE ,'raw')
-    saveHash(      hashList                  ,QUINITLE_SIZE ,'raw')
 
 
 def normalizeData():
@@ -145,13 +57,132 @@ def normalizeData():
         ,(test_x, test_y)]
 
 
+def csvDataToPkl(q_size,file_label='row'):
 
-def loadAllDataPython(size,file_label):
+    for quintile in range(1,6):
+        sample = loadCsvTrainData(quintile, q_size, 'train')
+        labels = loadCsvTrainLabelsData(quintile, q_size, 'trainLabels')
+    
+        saveData( (sample,labels), str(quintile) ,q_size ,'raw')
+        saveHash(     hashList                   ,q_size ,'raw') # hashList has been declared as global... sry
+
+
+def loadCsvTrainData(quintile, q_size, file_name='train'):
+    """ Open the train.csv.gz file and create a matrix out of it
+        The matrix is a subset of the original data
+        it's the x'th quintile
+
+        :type quintile: int
+        :param quintile: quintile number
+
+        :type q_size: int
+        :param q_size: size of the quintile
+
+        :type file_name: string
+        :param file_name: entire file name
+
+        :type return: numpy.ndarray
+    """
+
+
+    # open the reader CSV reader
+    inputFileTrain = DATA_PATH + file_name +'.csv.gz'
+    f = gzip.open(inputFileTrain, 'rb')
+    fileReader  = csv.reader(f , delimiter=',', quotechar='|')
+
+    # Define matrices indexes
+    startAt = (quintile-1)*q_size
+    nbRowsTodo = q_size
+    
+    # Initialize array and skip non-desired lines
+    sample = numpy.ndarray(  (nbRowsTodo,len(fileReader.next())-1), dtype='float32'  )
+    for i in range(startAt):
+        fileReader.next()
+
+        
+    # iterate through columns to retrieve the data
+    for rowIter,row in enumerate(fileReader):
+        for colIter,elem in enumerate(row):
+
+            # Convert all elems to a matrice
+            if elem == '' :
+                sample[rowIter][colIter-1] = -1
+            elif elem == 'NO':
+                sample[rowIter][colIter-1] = 0
+            elif elem == 'YES':
+                sample[rowIter][colIter-1] = 1
+            elif re.search('([^,]+=)', elem ):
+                sample[rowIter][colIter-1] = getIdHash(elem,hashList)
+            else:
+                sample[rowIter][colIter-1] = float(elem)
+
+        # Show progress
+        if not rowIter % 1000:
+            print rowIter
+
+        # For quintile purpose, end iteration before end
+        if rowIter > nbRowsTodo-2:
+            break
+
+    f.close()
+
+    return sample
+
+def loadCsvTrainLabelsData(quintile, q_size, file_name='trainLabels'):
+    """ Open the trainLabels.csv.gz file and create a matrix out of it
+        The matrix is a subset of the original data
+        it's the x'th quintile
+
+        :type quintile: int
+        :param quintile: quintile number
+
+        :type q_size: int
+        :param q_size: size of the quintile
+
+        :type file_name: string
+        :param file_name: entire file name
+
+        :type return: numpy.ndarray
+    """
+
+
+    # open the reader CSV reader
+    inputFileLabel = DATA_PATH + file_name +'.csv.gz'
+    print inputFileLabel
+    f = gzip.open(inputFileLabel, 'rb')
+    fileReader  = csv.reader(f , delimiter=',', quotechar='|')
+    
+    # Define matrices indexes
+    startAt = (quintile-1)*q_size
+    nbRowsTodo = q_size
+
+    # Initialize array and skip some lines
+    labels = numpy.ndarray(  (nbRowsTodo,len(fileReader.next())-1), dtype='float32'  )
+    for i in range(startAt):
+        fileReader.next()
+
+
+    # Csv lables to matrix labels
+    for rowIter,row in enumerate(fileReader):
+        labels[rowIter] = [float(i) for i in row[1:]]
+
+        if not rowIter % 200: # Show progress
+            print rowIter
+        
+        if rowIter > nbRowsTodo-2: # End before the end of the file
+            break
+
+    f.close()
+
+    return labels
+
+
+def loadAllDataPython(q_size,file_label):
     """
         Load the data_x data_y sample and labels
 
-        :type size: int
-        :param size: size of the quintile
+        :type q_size: int
+        :param q_size: size of the quintile
 
         :type file_label: string
         :param file_label: extra label of the data, could be "raw", "norm"...
@@ -171,51 +202,51 @@ def loadAllDataPython(size,file_label):
     return [(train_x, train_y), (valid_x, valid_y),
             (test_x, test_y)]
 
-def loadData(quintile,size,file_label):
+def loadData(quintile,q_size,file_label):
     """
         Load the data_x data_y sample and labels
 
         :type quintile: int
         :param quintile: quintile is the quintile number [1 to 5]
 
-        :type size: int
-        :param size: size of the quintile
+        :type q_size: int
+        :param q_size: size of the quintile
 
         :type file_label: string
         :param file_label: extra label of the data, could be raw, normalized...
     """
     file_name = 'quintile_'+file_label+'_'+str(quintile)
-    data_x,data_y = loadPkl(size,file_name)
+    data_x,data_y = loadPkl(q_size,file_name)
 
     return (data_x,data_y)
 
-def loadHash(size,file_label):
+def loadHash(q_size,file_label):
     """
         Load the hashfile
 
-        :type size: int
-        :param size: size of the quintile
+        :type q_size: int
+        :param q_size: size of the quintile
 
         :type file_label: string
         :param file_label: extra label of the data, could be raw, normalized...
     """
     file_name = 'hashList_'+file_label
-    hashList = loadPkl(size,file_name)
+    hashList = loadPkl(q_size,file_name)
 
     return hashList
 
-def loadPkl(size,file_name):
+def loadPkl(q_size,file_name):
     """
         Load a cPickle in a gzip file.
 
-        :type size: int
-        :param size: size of the quintile
+        :type q_size: int
+        :param q_size: size of the quintile
 
         :type file_name: string
         :param file_name: entire file name
     """
 
-    inputDir = '/home/marc/git/text_classification/data/'+str(size)+'/'
+    inputDir = DATA_PATH + str(q_size)+'/'
     inputFile = inputDir + file_name+'.pkl.gz' 
 
 
@@ -227,7 +258,7 @@ def loadPkl(size,file_name):
     return (data)
 
 
-def saveData(data,quintile,size,file_label):
+def saveData(data,quintile,q_size,file_label):
     """
         This function will save in a gzip format a pickle.
 
@@ -237,8 +268,8 @@ def saveData(data,quintile,size,file_label):
         :type quintile: int
         :param quintile: quintile is the quintile number [1 to 5]
 
-        :type size: int
-        :param size: size of the quintile
+        :type q_size: int
+        :param q_size: size of the quintile
 
         :type file_label: string
         :param file_label: extra label of the data, could be raw, normalized...
@@ -246,17 +277,17 @@ def saveData(data,quintile,size,file_label):
 
     """
     file_name = 'quintile_'+file_label+'_'+str(quintile)
-    savePkl(data,size,file_name)
+    savePkl(data,q_size,file_name)
 
-def saveHash(data,size,file_label):
+def saveHash(data,q_size,file_label):
     """
         This function will save in a gzip format a pickle.
 
         :type data: dictionary
         :param data: (data_x, data_y) numpy.matrix
 
-        :type size: int
-        :param size: size of the quintile
+        :type q_size: int
+        :param q_size: size of the quintile
 
         :type file_label: string
         :param file_label: extra label of the data, could be raw, normalized...
@@ -264,9 +295,9 @@ def saveHash(data,size,file_label):
 
     """
     file_name = 'hashList_'+file_label
-    savePkl(data,size,file_name)  
+    savePkl(data,q_size,file_name)  
 
-def savePkl(data,size,file_name):
+def savePkl(data,q_size,file_name):
     """
         This function will save in a gzip format a pickle.
 
@@ -276,11 +307,11 @@ def savePkl(data,size,file_name):
         :type file_name: string
         :param file_name: name of the file to save
 
-        :type size: int
-        :param size: size of the quintile we are dealing with
+        :type q_size: int
+        :param q_size: size of the quintile we are dealing with
     """
     #  Define output file
-    outputDir  = '/home/marc/git/text_classification/data/'+str(size)+'/'
+    outputDir  = DATA_PATH +str(q_size)+'/'
     outputFile = outputDir + file_name +'.pkl.gz'
     
     if not os.path.exists(outputDir):
@@ -302,4 +333,6 @@ if __name__ == '__main__':
 
     # loadAllDataPython()
 
-    normalizeData()
+    # normalizeData()
+
+    csvDataToPkl(3400)
