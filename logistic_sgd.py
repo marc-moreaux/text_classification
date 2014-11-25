@@ -89,6 +89,11 @@ class LogisticRegression(object):
         # return -T.mean(T.log(self.p_y_given_x)[T.arange(y.shape[0]), y])
         # end-snippet-2
 
+    def m_print(self,y):
+
+        return T # y.log(self.p_y_given_x) +(y-y)
+
+
     def errors(self, y):
         tmp = T.argmax(y,axis=1)
         if tmp.ndim != self.y_pred.ndim:
@@ -144,7 +149,7 @@ def load_data(dataset):
         # lets ous get around this issue
         return shared_x, T.cast(shared_y, 'int32')
 
-    test_set_x, test_set_y = shared_dataset(test_set)
+    test_set_x , test_set_y  = shared_dataset(test_set)
     valid_set_x, valid_set_y = shared_dataset(valid_set)
     train_set_x, train_set_y = shared_dataset(train_set)
 
@@ -245,6 +250,10 @@ def sgd_optimization_mnist(learning_rate=0.13, n_epochs=1000,dataset='data/mnist
             y: train_set_y[index * batch_size: (index + 1) * batch_size]
         }
     )
+
+
+
+
     # end-snippet-3
 
     ###############
@@ -272,6 +281,7 @@ def sgd_optimization_mnist(learning_rate=0.13, n_epochs=1000,dataset='data/mnist
     while (epoch < n_epochs) and (not done_looping):
         epoch = epoch + 1
         for minibatch_index in xrange(n_train_batches):
+
 
             minibatch_avg_cost = train_model(minibatch_index)
             # iteration number
@@ -468,30 +478,6 @@ def load_dataOrig(dataset):
     #############
     # LOAD DATA #
     #############
-
-    # Download the MNIST dataset if it is not present
-    data_dir, data_file = os.path.split(dataset)
-    if data_dir == "" and not os.path.isfile(dataset):
-        # Check if dataset is in the data directory.
-        new_path = os.path.join(
-            os.path.split(__file__)[0],
-            "..",
-            "data",
-            dataset
-        )
-        if os.path.isfile(new_path) or data_file == 'mnist.pkl.gz':
-            dataset = new_path
-
-    if (not os.path.isfile(dataset)) and data_file == 'mnist.pkl.gz':
-        import urllib
-        origin = (
-            'http://www.iro.umontreal.ca/~lisa/deep/data/mnist/mnist.pkl.gz'
-        )
-        print 'Downloading data from %s' % origin
-        urllib.urlretrieve(origin, dataset)
-
-    print '... loading data'
-
     # Load the dataset
     f = gzip.open(dataset, 'rb')
     train_set, valid_set, test_set = cPickle.load(f)
