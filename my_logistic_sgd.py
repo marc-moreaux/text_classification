@@ -29,6 +29,8 @@ def inspect_outputs(i, node, fn):
 
 
 
+
+
 class LogisticRegression(object):
 
 
@@ -216,7 +218,6 @@ def sgd_optimization_tradeshift(learning_rate=0.13, n_epochs=1000,batch_size=10)
         inputs=[index],
         outputs=cost,
         updates=updates,
-        mode=theano.compile.MonitorMode(post_func=inspect_outputs).excluding('local_elemwise_fusion', 'inplace'),
         givens={x: train_x[index * batch_size: (index + 1) * batch_size],
                 y: train_y[index * batch_size: (index + 1) * batch_size] } )
 

@@ -29,7 +29,7 @@ def csvDataToPkl(q_size,file_label='raw'):
     saveData(     (test,0)    ,     6        ,q_size, file_label)
     saveHash(     hashList                   ,q_size ,file_label)
 
-def normalizeData(q_size):
+def buildNnormalizeData(q_size):
     """Loads the pickles and normalizes the data
         The nomalisation is feature standardization
     """
@@ -73,6 +73,55 @@ def normalizeData(q_size):
 
     return [(train_x, train_y), (valid_x, valid_y)
         ,(test_x, test_y)]
+
+def buildIndexedDataPython(q_size,file_label):
+    (train_x,train_y),(test_x) = loadAllDataPython2(q_size,file_label)
+    # declare features that are better as indexes (doesn't seem linear)
+    indexFeatures = numpy.array( [15,17,18,20,22,23,27] )
+    indexFeatures = indexFeatures - 1
+    idxSameFeature = numpy.array ( [0,31,61,91,116] )
+
+    train_x_new = train_x
+    test_x_new  = test_x
+
+    # declare dicctionaries
+    dic = [ dict() for z in range(len(indexFeatures)) ]
+
+
+    # for each feature_x specified and for each sample
+    # increment a dictionary specific to the feature
+    # and re-assign an index value to the feature
+    for dicNb,idxNb in enumerate(indexFeatures):
+        for sample in range(len(train_x)):
+            for idemFeature in idxSameFeature:
+                if train_x[sample,idxNb+idemFeature] not in dic[dicNb]:
+                    dic[dicNb][train_x[sample,idxNb+idemFeature]] = len(dic[dicNb])
+                train_x_new[sample,idxNb+idemFeature] = dic[dicNb][train_x[sample,idxNb+idemFeature]]
+        for sample in range(len(test_x)):
+            for idemFeature in idxSameFeature:
+                if test_x[sample,idxNb+idemFeature] not in dic[dicNb]:
+                    dic[dicNb][test_x[sample,idxNb+idemFeature]] = len(dic[dicNb])
+                test_x_new[sample,idxNb+idemFeature] = dic[dicNb][test_x[sample,idxNb+idemFeature]]
+
+    # rectify indexes so they don't overpass
+    for dicNb,idxNb in enumerate(indexFeatures):
+        if dicNb == 0:
+            maxIdx = 0
+        else:
+            maxIdx = maxIdx + len(dic[dicNb-1])
+            for idemFeature in idxSameFeature:
+                train_x[:,idxNb+idemFeature] = train_x[:,idxNb+idemFeature] + maxIdx
+            
+
+    for i in range(5):
+        tmp_x = train_x_new[q_size*i:q_size*(i+1),]
+        tmp_y = train_y[q_size*i:q_size*(i+1),]
+        saveData( (tmp_x, tmp_y) ,i+1,q_size,'indexed')
+    saveData( (test_x_new  , None  ) ,6,q_size,'indexed')
+    savePkl(indexFeatures,q_size,'feature_indexes')
+
+
+    return (train_x_new,train_y),(test_x_new)
 
 def checkNan(q_size):
     (train_x, train_y), (valid_x, valid_y), (test_x, test_y) \
@@ -278,7 +327,20 @@ def getIdHash(elem,hashList):
 
 
 # Load cPickle files
-def loadAllDataPython(q_size,file_label,final=False):
+def loadAllDataPython2(q_size,file_label):
+    train_x, train_y = loadData(1,q_size,file_label)
+    for i in range(2,6):
+        tmp_x,tmp_y = loadData(i,q_size,file_label)
+        train_x = numpy.concatenate( (train_x,tmp_x), axis=0 )
+        train_y = numpy.concatenate( (train_y,tmp_y), axis=0 )
+
+    test_x , test_y  = loadData(6,q_size,file_label)
+    
+
+
+    return (train_x, train_y), (test_x)
+
+def loadAllDataPython(q_size,file_label):
     """
         Load the data_x data_y sample and labels
 
@@ -295,18 +357,12 @@ def loadAllDataPython(q_size,file_label,final=False):
         train_x = numpy.concatenate( (train_x,tmp_x), axis=0 )
         train_y = numpy.concatenate( (train_y,tmp_y), axis=0 )
     
+    tmp_x,tmp_y = loadData(4,q_size,file_label)
+    train_x = numpy.concatenate( (train_x,tmp_x), axis=0 )
+    train_y = numpy.concatenate( (train_y,tmp_y), axis=0 )
 
-    if final == False:
-        valid_x, valid_y = loadData(4,q_size,file_label)
-        test_x , test_y  = loadData(5,q_size,file_label)
-    
-    else :
-        tmp_x,tmp_y = loadData(4,q_size,file_label)
-        train_x = numpy.concatenate( (train_x,tmp_x), axis=0 )
-        train_y = numpy.concatenate( (train_y,tmp_y), axis=0 )
-
-    	valid_x, valid_y = loadData(5,q_size,file_label)
-        test_x , test_y  = loadData(6,q_size,file_label)
+    valid_x, valid_y = loadData(5,q_size,file_label)
+    test_x , test_y  = loadData(6,q_size,file_label)
     
 
 
@@ -471,12 +527,7 @@ def saveCsv(q_size,data=None,file_name="submission"):
 
 if __name__ == '__main__':
     
-    csvDataToPkl(QUINITLE_SIZE)
+    # csvDataToPkl(QUINITLE_SIZE)
     # normalizeData(QUINITLE_SIZE)
     # saveCsv(q_size=340000,file_name="submission")
-
-
-
-
-        
-    
+    buildIndexedDataPython(3400,'raw')
