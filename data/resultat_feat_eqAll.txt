@@ -1,0 +1,1761 @@
+**************************************************************************
+*******
+*******  => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 60]
+*******
+**************************************************************************
+
+**************************************
+training started for  [0] [] False False False
+2015-02-19 14:32:47.705158	encountered: 1000	 current logloss: 0.693147	 difference : 30.685282
+2015-02-19 14:32:53.200380	encountered: 2000	 current logloss: 0.693147	 difference : 0.000000
+2015-02-19 14:32:58.692878	encountered: 3000	 current logloss: 0.693147	 difference : 0.000000
+2015-02-19 14:33:04.187525	encountered: 4000	 current logloss: 0.693147	 difference : 0.000000
+2015-02-19 14:33:09.683648	encountered: 5000	 current logloss: 0.693147	 difference : 0.000000
+2015-02-19 14:33:15.179925	encountered: 6000	 current logloss: 0.693147	 difference : -0.000000
+
+======>   0.693216495283  <======	 sizeIdx :  0
+
+**************************************
+training started for  [1] [] False False False
+2015-02-19 14:33:41.926653	encountered: 1000	 current logloss: 0.415645	 difference : 58.435492
+2015-02-19 14:33:47.434799	encountered: 2000	 current logloss: 0.420136	 difference : -1.080402
+2015-02-19 14:33:52.938119	encountered: 3000	 current logloss: 0.411558	 difference : 2.041560
+2015-02-19 14:33:58.447890	encountered: 4000	 current logloss: 0.414042	 difference : -0.603402
+2015-02-19 14:34:03.955257	encountered: 5000	 current logloss: 0.409459	 difference : 1.106717
+2015-02-19 14:34:09.459986	encountered: 6000	 current logloss: 0.410218	 difference : -0.185303
+
+======>   0.416101169239  <======	 sizeIdx :  0
+
+**************************************
+training started for  [2] [] False False False
+2015-02-19 14:34:36.331999	encountered: 1000	 current logloss: 0.359477	 difference : 64.052304
+2015-02-19 14:34:41.837947	encountered: 2000	 current logloss: 0.351405	 difference : 2.245404
+2015-02-19 14:34:47.341623	encountered: 3000	 current logloss: 0.343879	 difference : 2.141740
+2015-02-19 14:34:52.845720	encountered: 4000	 current logloss: 0.343765	 difference : 0.033209
+2015-02-19 14:34:58.351443	encountered: 5000	 current logloss: 0.341753	 difference : 0.585213
+2015-02-19 14:35:03.855471	encountered: 6000	 current logloss: 0.342672	 difference : -0.269001
+
+======>   0.346972658539  <======	 sizeIdx :  0
+
+**************************************
+training started for  [3] [] False False False
+2015-02-19 14:35:30.782111	encountered: 1000	 current logloss: 0.693147	 difference : 30.685282
+2015-02-19 14:35:36.339802	encountered: 2000	 current logloss: 0.693147	 difference : 0.000000
+2015-02-19 14:35:41.892486	encountered: 3000	 current logloss: 0.693147	 difference : 0.000000
+2015-02-19 14:35:47.450849	encountered: 4000	 current logloss: 0.693147	 difference : 0.000000
+2015-02-19 14:35:53.009503	encountered: 5000	 current logloss: 0.693147	 difference : 0.000000
+2015-02-19 14:35:58.567834	encountered: 6000	 current logloss: 0.693147	 difference : -0.000000
+
+======>   0.693216495283  <======	 sizeIdx :  0
+
+**************************************
+training started for  [4] [] False False False
+2015-02-19 14:36:25.883127	encountered: 1000	 current logloss: 0.693147	 difference : 30.685282
+2015-02-19 14:36:31.438128	encountered: 2000	 current logloss: 0.693147	 difference : 0.000000
+2015-02-19 14:36:36.990092	encountered: 3000	 current logloss: 0.693147	 difference : 0.000000
+2015-02-19 14:36:42.545076	encountered: 4000	 current logloss: 0.693147	 difference : 0.000000
+2015-02-19 14:36:48.100518	encountered: 5000	 current logloss: 0.693147	 difference : 0.000000
+2015-02-19 14:36:53.655343	encountered: 6000	 current logloss: 0.693147	 difference : -0.000000
+
+======>   0.693216495283  <======	 sizeIdx :  0
+
+**************************************
+training started for  [5] [] False False False
+2015-02-19 14:37:20.911794	encountered: 1000	 current logloss: 0.356717	 difference : 64.328290
+2015-02-19 14:37:26.416370	encountered: 2000	 current logloss: 0.332370	 difference : 6.825314
+2015-02-19 14:37:31.917106	encountered: 3000	 current logloss: 0.323067	 difference : 2.799131
+2015-02-19 14:37:37.419497	encountered: 4000	 current logloss: 0.313333	 difference : 3.012770
+2015-02-19 14:37:42.922371	encountered: 5000	 current logloss: 0.309070	 difference : 1.360715
+2015-02-19 14:37:48.424817	encountered: 6000	 current logloss: 0.303172	 difference : 1.908063
+
+======>   0.29694305582  <======	 sizeIdx :  0
+
+**************************************
+training started for  [6] [] False False False
+2015-02-19 14:38:15.232019	encountered: 1000	 current logloss: 0.687595	 difference : 31.240516
+2015-02-19 14:38:20.735440	encountered: 2000	 current logloss: 0.686281	 difference : 0.191060
+2015-02-19 14:38:26.235233	encountered: 3000	 current logloss: 0.686053	 difference : 0.033187
+2015-02-19 14:38:31.738278	encountered: 4000	 current logloss: 0.685344	 difference : 0.103440
+2015-02-19 14:38:37.240223	encountered: 5000	 current logloss: 0.684834	 difference : 0.074370
+2015-02-19 14:38:42.744851	encountered: 6000	 current logloss: 0.684174	 difference : 0.096356
+
+======>   0.67791766477  <======	 sizeIdx :  0
+
+**************************************
+training started for  [7] [] False False False
+2015-02-19 14:39:09.580968	encountered: 1000	 current logloss: 0.423057	 difference : 57.694286
+2015-02-19 14:39:15.091317	encountered: 2000	 current logloss: 0.385583	 difference : 8.857958
+2015-02-19 14:39:20.598604	encountered: 3000	 current logloss: 0.370422	 difference : 3.931996
+2015-02-19 14:39:26.110325	encountered: 4000	 current logloss: 0.357135	 difference : 3.587001
+2015-02-19 14:39:31.620941	encountered: 5000	 current logloss: 0.351257	 difference : 1.645816
+2015-02-19 14:39:37.130148	encountered: 6000	 current logloss: 0.343645	 difference : 2.167002
+
+======>   0.324241767178  <======	 sizeIdx :  0
+
+**************************************
+training started for  [8] [] False False False
+2015-02-19 14:40:03.980628	encountered: 1000	 current logloss: 0.636484	 difference : 36.351642
+2015-02-19 14:40:09.491414	encountered: 2000	 current logloss: 0.625683	 difference : 1.696933
+2015-02-19 14:40:14.997878	encountered: 3000	 current logloss: 0.624925	 difference : 0.121130
+2015-02-19 14:40:20.506802	encountered: 4000	 current logloss: 0.623138	 difference : 0.285925
+2015-02-19 14:40:26.014786	encountered: 5000	 current logloss: 0.622572	 difference : 0.090885
+2015-02-19 14:40:31.524805	encountered: 6000	 current logloss: 0.621022	 difference : 0.248998
+
+======>   0.612096483181  <======	 sizeIdx :  0
+
+**************************************
+training started for  [9] [] False False False
+2015-02-19 14:40:58.345676	encountered: 1000	 current logloss: 0.502285	 difference : 49.771507
+2015-02-19 14:41:03.848405	encountered: 2000	 current logloss: 0.463738	 difference : 7.674337
+2015-02-19 14:41:09.348814	encountered: 3000	 current logloss: 0.448466	 difference : 3.293263
+2015-02-19 14:41:14.853321	encountered: 4000	 current logloss: 0.436754	 difference : 2.611618
+2015-02-19 14:41:20.357567	encountered: 5000	 current logloss: 0.431514	 difference : 1.199718
+2015-02-19 14:41:25.862374	encountered: 6000	 current logloss: 0.422846	 difference : 2.008604
+
+======>   0.396233181715  <======	 sizeIdx :  0
+
+**************************************
+training started for  [10] [] False False False
+2015-02-19 14:41:52.701545	encountered: 1000	 current logloss: 0.665413	 difference : 33.458675
+2015-02-19 14:41:58.227926	encountered: 2000	 current logloss: 0.668402	 difference : -0.449126
+2015-02-19 14:42:03.749521	encountered: 3000	 current logloss: 0.667900	 difference : 0.075116
+2015-02-19 14:42:09.276696	encountered: 4000	 current logloss: 0.668958	 difference : -0.158470
+2015-02-19 14:42:14.801495	encountered: 5000	 current logloss: 0.668012	 difference : 0.141400
+2015-02-19 14:42:20.326706	encountered: 6000	 current logloss: 0.668069	 difference : -0.008488
+
+======>   0.669383020229  <======	 sizeIdx :  0
+
+**************************************
+training started for  [11] [] False False False
+2015-02-19 14:42:47.245263	encountered: 1000	 current logloss: 0.296546	 difference : 70.345352
+2015-02-19 14:42:52.752518	encountered: 2000	 current logloss: 0.269254	 difference : 9.203461
+2015-02-19 14:42:58.258976	encountered: 3000	 current logloss: 0.266000	 difference : 1.208401
+2015-02-19 14:43:03.766518	encountered: 4000	 current logloss: 0.257931	 difference : 3.033431
+2015-02-19 14:43:09.274747	encountered: 5000	 current logloss: 0.255664	 difference : 0.879207
+2015-02-19 14:43:14.781957	encountered: 6000	 current logloss: 0.252470	 difference : 1.249322
+
+======>   0.249288490689  <======	 sizeIdx :  0
+
+**************************************
+training started for  [12] [] False False False
+2015-02-19 14:43:41.629749	encountered: 1000	 current logloss: 0.677426	 difference : 32.257352
+2015-02-19 14:43:47.155192	encountered: 2000	 current logloss: 0.669597	 difference : 1.155786
+2015-02-19 14:43:52.677513	encountered: 3000	 current logloss: 0.670812	 difference : -0.181541
+2015-02-19 14:43:58.204823	encountered: 4000	 current logloss: 0.667394	 difference : 0.509584
+2015-02-19 14:44:03.730747	encountered: 5000	 current logloss: 0.668118	 difference : -0.108431
+2015-02-19 14:44:09.254903	encountered: 6000	 current logloss: 0.667580	 difference : 0.080551
+
+======>   0.659131510098  <======	 sizeIdx :  0
+
+**************************************
+training started for  [13] [] False False False
+2015-02-19 14:44:36.176792	encountered: 1000	 current logloss: 0.299094	 difference : 70.090639
+2015-02-19 14:44:41.687151	encountered: 2000	 current logloss: 0.278862	 difference : 6.764398
+2015-02-19 14:44:47.196657	encountered: 3000	 current logloss: 0.276520	 difference : 0.839623
+2015-02-19 14:44:52.708345	encountered: 4000	 current logloss: 0.271809	 difference : 1.703807
+2015-02-19 14:44:58.220084	encountered: 5000	 current logloss: 0.268715	 difference : 1.138418
+2015-02-19 14:45:03.732328	encountered: 6000	 current logloss: 0.264441	 difference : 1.590240
+
+======>   0.257571165312  <======	 sizeIdx :  0
+
+**************************************
+training started for  [14] [] False False False
+2015-02-19 14:45:30.636719	encountered: 1000	 current logloss: 0.531676	 difference : 46.832381
+2015-02-19 14:45:36.184146	encountered: 2000	 current logloss: 0.504875	 difference : 5.040890
+2015-02-19 14:45:41.727880	encountered: 3000	 current logloss: 0.491621	 difference : 2.625208
+2015-02-19 14:45:47.275582	encountered: 4000	 current logloss: 0.486956	 difference : 0.948885
+2015-02-19 14:45:52.823956	encountered: 5000	 current logloss: 0.484199	 difference : 0.566181
+2015-02-19 14:45:58.370435	encountered: 6000	 current logloss: 0.479292	 difference : 1.013377
+
+======>   0.464659126004  <======	 sizeIdx :  0
+
+**************************************
+training started for  [15] [] False False False
+2015-02-19 14:46:25.246049	encountered: 1000	 current logloss: 0.301168	 difference : 69.883206
+2015-02-19 14:46:30.763054	encountered: 2000	 current logloss: 0.283751	 difference : 5.783249
+2015-02-19 14:46:36.275705	encountered: 3000	 current logloss: 0.275852	 difference : 2.783763
+2015-02-19 14:46:41.792964	encountered: 4000	 current logloss: 0.268830	 difference : 2.545344
+2015-02-19 14:46:47.308909	encountered: 5000	 current logloss: 0.265499	 difference : 1.239304
+2015-02-19 14:46:52.826767	encountered: 6000	 current logloss: 0.261372	 difference : 1.554297
+
+======>   0.250206961796  <======	 sizeIdx :  0
+
+**************************************
+training started for  [16] [] False False False
+2015-02-19 14:47:19.640056	encountered: 1000	 current logloss: 0.396580	 difference : 60.341957
+2015-02-19 14:47:25.148074	encountered: 2000	 current logloss: 0.346958	 difference : 12.512684
+2015-02-19 14:47:30.652687	encountered: 3000	 current logloss: 0.325987	 difference : 6.044113
+2015-02-19 14:47:36.162736	encountered: 4000	 current logloss: 0.309347	 difference : 5.104592
+2015-02-19 14:47:41.671817	encountered: 5000	 current logloss: 0.297565	 difference : 3.808502
+2015-02-19 14:47:47.179071	encountered: 6000	 current logloss: 0.287319	 difference : 3.443443
+2015-02-19 14:47:52.683036	encountered: 7000	 current logloss: 0.283302	 difference : 1.397951
+
+======>   0.239841215759  <======	 sizeIdx :  0
+
+**************************************
+training started for  [17] [] False False False
+2015-02-19 14:48:19.654689	encountered: 1000	 current logloss: 0.243690	 difference : 75.631022
+2015-02-19 14:48:25.175039	encountered: 2000	 current logloss: 0.245112	 difference : -0.583429
+2015-02-19 14:48:30.690469	encountered: 3000	 current logloss: 0.243675	 difference : 0.586240
+2015-02-19 14:48:36.212386	encountered: 4000	 current logloss: 0.240226	 difference : 1.415317
+2015-02-19 14:48:41.732223	encountered: 5000	 current logloss: 0.240556	 difference : -0.137312
+2015-02-19 14:48:47.252904	encountered: 6000	 current logloss: 0.238738	 difference : 0.755650
+
+======>   0.242193956451  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18] [] False False False
+2015-02-19 14:49:14.059364	encountered: 1000	 current logloss: 0.199429	 difference : 80.057104
+2015-02-19 14:49:19.569447	encountered: 2000	 current logloss: 0.200773	 difference : -0.674107
+2015-02-19 14:49:25.074794	encountered: 3000	 current logloss: 0.200913	 difference : -0.069370
+2015-02-19 14:49:30.586966	encountered: 4000	 current logloss: 0.198905	 difference : 0.999133
+2015-02-19 14:49:36.095569	encountered: 5000	 current logloss: 0.198858	 difference : 0.023849
+2015-02-19 14:49:41.605781	encountered: 6000	 current logloss: 0.196582	 difference : 1.144374
+
+======>   0.199563944287  <======	 sizeIdx :  0
+
+**************************************
+training started for  [19] [] False False False
+2015-02-19 14:50:08.437356	encountered: 1000	 current logloss: 0.406476	 difference : 59.352436
+2015-02-19 14:50:13.945240	encountered: 2000	 current logloss: 0.368238	 difference : 9.407193
+2015-02-19 14:50:19.449609	encountered: 3000	 current logloss: 0.351526	 difference : 4.538350
+2015-02-19 14:50:24.956374	encountered: 4000	 current logloss: 0.336953	 difference : 4.145562
+2015-02-19 14:50:30.465503	encountered: 5000	 current logloss: 0.330665	 difference : 1.866260
+2015-02-19 14:50:35.972742	encountered: 6000	 current logloss: 0.322450	 difference : 2.484334
+
+======>   0.304738841661  <======	 sizeIdx :  0
+
+**************************************
+training started for  [20] [] False False False
+2015-02-19 14:51:02.817766	encountered: 1000	 current logloss: 0.651049	 difference : 34.895145
+2015-02-19 14:51:08.334986	encountered: 2000	 current logloss: 0.638481	 difference : 1.930381
+2015-02-19 14:51:13.849352	encountered: 3000	 current logloss: 0.626865	 difference : 1.819344
+2015-02-19 14:51:19.367859	encountered: 4000	 current logloss: 0.619521	 difference : 1.171562
+2015-02-19 14:51:24.885108	encountered: 5000	 current logloss: 0.613864	 difference : 0.913102
+2015-02-19 14:51:30.406756	encountered: 6000	 current logloss: 0.607914	 difference : 0.969215
+
+======>   0.574947912665  <======	 sizeIdx :  0
+
+**************************************
+training started for  [21] [] False False False
+2015-02-19 14:51:57.252898	encountered: 1000	 current logloss: 0.434823	 difference : 56.517697
+2015-02-19 14:52:02.762356	encountered: 2000	 current logloss: 0.400377	 difference : 7.921959
+2015-02-19 14:52:08.267718	encountered: 3000	 current logloss: 0.385454	 difference : 3.727083
+2015-02-19 14:52:13.776981	encountered: 4000	 current logloss: 0.371003	 difference : 3.749061
+2015-02-19 14:52:19.285992	encountered: 5000	 current logloss: 0.364618	 difference : 1.721101
+2015-02-19 14:52:24.795974	encountered: 6000	 current logloss: 0.356925	 difference : 2.109831
+
+======>   0.339920148202  <======	 sizeIdx :  0
+
+**************************************
+training started for  [22] [] False False False
+2015-02-19 14:52:51.629568	encountered: 1000	 current logloss: 0.640881	 difference : 35.911906
+2015-02-19 14:52:57.137124	encountered: 2000	 current logloss: 0.583203	 difference : 8.999725
+2015-02-19 14:53:02.640367	encountered: 3000	 current logloss: 0.533351	 difference : 8.548053
+2015-02-19 14:53:08.146518	encountered: 4000	 current logloss: 0.494367	 difference : 7.309189
+2015-02-19 14:53:13.651103	encountered: 5000	 current logloss: 0.470916	 difference : 4.743643
+2015-02-19 14:53:19.155030	encountered: 6000	 current logloss: 0.448522	 difference : 4.755566
+2015-02-19 14:53:24.655632	encountered: 7000	 current logloss: 0.435897	 difference : 2.814638
+
+======>   0.279362001408  <======	 sizeIdx :  0
+
+**************************************
+training started for  [23] [] False False False
+2015-02-19 14:53:51.488483	encountered: 1000	 current logloss: 0.567172	 difference : 43.282764
+2015-02-19 14:53:56.999633	encountered: 2000	 current logloss: 0.519900	 difference : 8.334831
+2015-02-19 14:54:02.509424	encountered: 3000	 current logloss: 0.484257	 difference : 6.855709
+2015-02-19 14:54:08.019769	encountered: 4000	 current logloss: 0.453913	 difference : 6.266049
+2015-02-19 14:54:13.530864	encountered: 5000	 current logloss: 0.432261	 difference : 4.770020
+2015-02-19 14:54:19.039248	encountered: 6000	 current logloss: 0.411601	 difference : 4.779665
+2015-02-19 14:54:24.546596	encountered: 7000	 current logloss: 0.400184	 difference : 2.773751
+
+======>   0.255294520829  <======	 sizeIdx :  0
+
+**************************************
+training started for  [24] [] False False False
+2015-02-19 14:54:51.396095	encountered: 1000	 current logloss: 0.660369	 difference : 33.963121
+2015-02-19 14:54:56.921111	encountered: 2000	 current logloss: 0.664513	 difference : -0.627578
+2015-02-19 14:55:02.443186	encountered: 3000	 current logloss: 0.664460	 difference : 0.008044
+2015-02-19 14:55:07.967991	encountered: 4000	 current logloss: 0.666070	 difference : -0.242296
+2015-02-19 14:55:13.493150	encountered: 5000	 current logloss: 0.665196	 difference : 0.131114
+2015-02-19 14:55:19.016539	encountered: 6000	 current logloss: 0.665262	 difference : -0.009916
+
+======>   0.667092286931  <======	 sizeIdx :  0
+
+**************************************
+training started for  [25] [] False False False
+2015-02-19 14:55:45.916844	encountered: 1000	 current logloss: 0.266682	 difference : 73.331847
+2015-02-19 14:55:51.419071	encountered: 2000	 current logloss: 0.240764	 difference : 9.718557
+2015-02-19 14:55:56.917827	encountered: 3000	 current logloss: 0.228920	 difference : 4.919114
+2015-02-19 14:56:02.418977	encountered: 4000	 current logloss: 0.224134	 difference : 2.091078
+2015-02-19 14:56:07.920976	encountered: 5000	 current logloss: 0.223994	 difference : 0.062389
+2015-02-19 14:56:13.420631	encountered: 6000	 current logloss: 0.220364	 difference : 1.620306
+
+======>   0.210875096484  <======	 sizeIdx :  0
+
+**************************************
+training started for  [26] [] False False False
+2015-02-19 14:56:40.235209	encountered: 1000	 current logloss: 0.660888	 difference : 33.911221
+2015-02-19 14:56:45.769167	encountered: 2000	 current logloss: 0.665023	 difference : -0.625741
+2015-02-19 14:56:51.299110	encountered: 3000	 current logloss: 0.664976	 difference : 0.007150
+2015-02-19 14:56:56.833114	encountered: 4000	 current logloss: 0.666574	 difference : -0.240294
+2015-02-19 14:57:02.365357	encountered: 5000	 current logloss: 0.665605	 difference : 0.145266
+2015-02-19 14:57:07.897810	encountered: 6000	 current logloss: 0.665840	 difference : -0.035286
+
+======>   0.667535590364  <======	 sizeIdx :  0
+
+**************************************
+training started for  [27] [] False False False
+2015-02-19 14:57:34.824566	encountered: 1000	 current logloss: 0.322590	 difference : 67.741005
+2015-02-19 14:57:40.349172	encountered: 2000	 current logloss: 0.313709	 difference : 2.753002
+2015-02-19 14:57:45.869280	encountered: 3000	 current logloss: 0.310587	 difference : 0.995173
+2015-02-19 14:57:51.393412	encountered: 4000	 current logloss: 0.307151	 difference : 1.106318
+2015-02-19 14:57:56.918143	encountered: 5000	 current logloss: 0.306002	 difference : 0.374078
+2015-02-19 14:58:02.443555	encountered: 6000	 current logloss: 0.301973	 difference : 1.316505
+
+======>   0.300201217561  <======	 sizeIdx :  0
+
+**************************************
+training started for  [28] [] False False False
+2015-02-19 14:58:29.278646	encountered: 1000	 current logloss: 0.432941	 difference : 56.705925
+2015-02-19 14:58:34.783758	encountered: 2000	 current logloss: 0.387646	 difference : 10.462213
+2015-02-19 14:58:40.288668	encountered: 3000	 current logloss: 0.369843	 difference : 4.592489
+2015-02-19 14:58:45.794995	encountered: 4000	 current logloss: 0.354352	 difference : 4.188413
+2015-02-19 14:58:51.302346	encountered: 5000	 current logloss: 0.343826	 difference : 2.970705
+2015-02-19 14:58:56.807719	encountered: 6000	 current logloss: 0.334395	 difference : 2.742845
+
+======>   0.297089582863  <======	 sizeIdx :  0
+
+**************************************
+training started for  [] [] False False True
+2015-02-19 14:59:34.086031	encountered: 1000	 current logloss: 0.381336	 difference : 61.866420
+2015-02-19 14:59:50.699356	encountered: 2000	 current logloss: 0.307386	 difference : 19.392227
+2015-02-19 15:00:07.594814	encountered: 3000	 current logloss: 0.262293	 difference : 14.669785
+2015-02-19 15:00:24.631972	encountered: 4000	 current logloss: 0.237907	 difference : 9.297242
+2015-02-19 15:00:41.773457	encountered: 5000	 current logloss: 0.219288	 difference : 7.826206
+2015-02-19 15:00:58.998858	encountered: 6000	 current logloss: 0.202784	 difference : 7.526217
+2015-02-19 15:01:16.300065	encountered: 7000	 current logloss: 0.191745	 difference : 5.443902
+2015-02-19 15:01:33.618320	encountered: 8000	 current logloss: 0.181821	 difference : 5.175520
+2015-02-19 15:01:51.008676	encountered: 9000	 current logloss: 0.173052	 difference : 4.822702
+2015-02-19 15:02:08.436765	encountered: 10000	 current logloss: 0.166467	 difference : 3.805520
+2015-02-19 15:02:25.881428	encountered: 11000	 current logloss: 0.160175	 difference : 3.779700
+2015-02-19 15:02:43.368674	encountered: 12000	 current logloss: 0.154644	 difference : 3.453008
+2015-02-19 15:03:00.866095	encountered: 13000	 current logloss: 0.150208	 difference : 2.868642
+
+======>   0.105359465546  <======	 sizeIdx :  0
+1.0 ==> 0.105359465546
+89.4640534454
+
+**************************************
+training started for  [0] [] False False True
+2015-02-19 15:03:41.095744	encountered: 1000	 current logloss: 0.381336	 difference : 61.866420
+2015-02-19 15:03:57.703527	encountered: 2000	 current logloss: 0.307386	 difference : 19.392227
+2015-02-19 15:04:14.592893	encountered: 3000	 current logloss: 0.262293	 difference : 14.669785
+2015-02-19 15:04:31.624715	encountered: 4000	 current logloss: 0.237907	 difference : 9.297242
+2015-02-19 15:04:48.762919	encountered: 5000	 current logloss: 0.219288	 difference : 7.826206
+2015-02-19 15:05:05.990780	encountered: 6000	 current logloss: 0.202784	 difference : 7.526217
+2015-02-19 15:05:23.291263	encountered: 7000	 current logloss: 0.191745	 difference : 5.443902
+2015-02-19 15:05:40.612495	encountered: 8000	 current logloss: 0.181821	 difference : 5.175520
+2015-02-19 15:05:58.003099	encountered: 9000	 current logloss: 0.173052	 difference : 4.822702
+2015-02-19 15:06:15.437104	encountered: 10000	 current logloss: 0.166467	 difference : 3.805520
+2015-02-19 15:06:32.884098	encountered: 11000	 current logloss: 0.160175	 difference : 3.779700
+2015-02-19 15:06:50.370557	encountered: 12000	 current logloss: 0.154644	 difference : 3.453008
+2015-02-19 15:07:07.872229	encountered: 13000	 current logloss: 0.150208	 difference : 2.868642
+
+======>   0.105359465546  <======	 sizeIdx :  0
+
+**************************************
+training started for  [1] [] False False True
+2015-02-19 15:07:47.991144	encountered: 1000	 current logloss: 0.381685	 difference : 61.831507
+2015-02-19 15:08:04.652605	encountered: 2000	 current logloss: 0.306016	 difference : 19.824848
+2015-02-19 15:08:21.562246	encountered: 3000	 current logloss: 0.261521	 difference : 14.540362
+2015-02-19 15:08:38.615575	encountered: 4000	 current logloss: 0.237490	 difference : 9.188624
+2015-02-19 15:08:55.778301	encountered: 5000	 current logloss: 0.219443	 difference : 7.599304
+2015-02-19 15:09:13.018794	encountered: 6000	 current logloss: 0.202928	 difference : 7.525910
+2015-02-19 15:09:30.367425	encountered: 7000	 current logloss: 0.191861	 difference : 5.453565
+2015-02-19 15:09:47.726107	encountered: 8000	 current logloss: 0.181818	 difference : 5.234306
+2015-02-19 15:10:05.141948	encountered: 9000	 current logloss: 0.173165	 difference : 4.759087
+2015-02-19 15:10:22.633852	encountered: 10000	 current logloss: 0.166566	 difference : 3.810933
+2015-02-19 15:10:40.137715	encountered: 11000	 current logloss: 0.160279	 difference : 3.774366
+2015-02-19 15:10:57.679794	encountered: 12000	 current logloss: 0.154807	 difference : 3.414547
+2015-02-19 15:11:15.238672	encountered: 13000	 current logloss: 0.150323	 difference : 2.895993
+
+======>   0.103416472111  <======	 sizeIdx :  0
+
+**************************************
+training started for  [2] [] False False True
+2015-02-19 15:11:55.713524	encountered: 1000	 current logloss: 0.382023	 difference : 61.797697
+2015-02-19 15:12:12.476699	encountered: 2000	 current logloss: 0.305697	 difference : 19.979497
+2015-02-19 15:12:29.525575	encountered: 3000	 current logloss: 0.261254	 difference : 14.538192
+2015-02-19 15:12:46.695269	encountered: 4000	 current logloss: 0.236921	 difference : 9.313926
+2015-02-19 15:13:03.974149	encountered: 5000	 current logloss: 0.218839	 difference : 7.631868
+2015-02-19 15:13:21.321670	encountered: 6000	 current logloss: 0.202519	 difference : 7.457890
+2015-02-19 15:13:38.760931	encountered: 7000	 current logloss: 0.191685	 difference : 5.349312
+2015-02-19 15:13:56.214174	encountered: 8000	 current logloss: 0.181704	 difference : 5.206983
+2015-02-19 15:14:13.745271	encountered: 9000	 current logloss: 0.173097	 difference : 4.737222
+2015-02-19 15:14:31.328043	encountered: 10000	 current logloss: 0.166528	 difference : 3.794971
+2015-02-19 15:14:48.927480	encountered: 11000	 current logloss: 0.160280	 difference : 3.751966
+2015-02-19 15:15:06.582516	encountered: 12000	 current logloss: 0.154784	 difference : 3.428577
+2015-02-19 15:15:24.258132	encountered: 13000	 current logloss: 0.150327	 difference : 2.879436
+
+======>   0.102207318036  <======	 sizeIdx :  0
+
+**************************************
+training started for  [3] [] False False True
+2015-02-19 15:16:04.786298	encountered: 1000	 current logloss: 0.381336	 difference : 61.866420
+2015-02-19 15:16:21.467806	encountered: 2000	 current logloss: 0.307386	 difference : 19.392227
+2015-02-19 15:16:38.423701	encountered: 3000	 current logloss: 0.262293	 difference : 14.669785
+2015-02-19 15:16:55.526952	encountered: 4000	 current logloss: 0.237907	 difference : 9.297242
+2015-02-19 15:17:12.735969	encountered: 5000	 current logloss: 0.219288	 difference : 7.826206
+2015-02-19 15:17:30.035584	encountered: 6000	 current logloss: 0.202784	 difference : 7.526217
+2015-02-19 15:17:47.409307	encountered: 7000	 current logloss: 0.191745	 difference : 5.443902
+2015-02-19 15:18:04.797618	encountered: 8000	 current logloss: 0.181821	 difference : 5.175520
+2015-02-19 15:18:22.266490	encountered: 9000	 current logloss: 0.173052	 difference : 4.822702
+2015-02-19 15:18:39.764565	encountered: 10000	 current logloss: 0.166467	 difference : 3.805520
+2015-02-19 15:18:57.277232	encountered: 11000	 current logloss: 0.160175	 difference : 3.779700
+2015-02-19 15:19:14.835405	encountered: 12000	 current logloss: 0.154644	 difference : 3.453008
+2015-02-19 15:19:32.409223	encountered: 13000	 current logloss: 0.150208	 difference : 2.868642
+
+======>   0.105359465546  <======	 sizeIdx :  0
+
+**************************************
+training started for  [4] [] False False True
+2015-02-19 15:20:13.152432	encountered: 1000	 current logloss: 0.381336	 difference : 61.866420
+2015-02-19 15:20:29.772959	encountered: 2000	 current logloss: 0.307386	 difference : 19.392227
+2015-02-19 15:20:46.664779	encountered: 3000	 current logloss: 0.262293	 difference : 14.669785
+2015-02-19 15:21:03.700235	encountered: 4000	 current logloss: 0.237907	 difference : 9.297242
+2015-02-19 15:21:20.839887	encountered: 5000	 current logloss: 0.219288	 difference : 7.826206
+2015-02-19 15:21:38.073570	encountered: 6000	 current logloss: 0.202784	 difference : 7.526217
+2015-02-19 15:21:55.380243	encountered: 7000	 current logloss: 0.191745	 difference : 5.443902
+2015-02-19 15:22:12.703880	encountered: 8000	 current logloss: 0.181821	 difference : 5.175520
+2015-02-19 15:22:30.100568	encountered: 9000	 current logloss: 0.173052	 difference : 4.822702
+2015-02-19 15:22:47.532817	encountered: 10000	 current logloss: 0.166467	 difference : 3.805520
+2015-02-19 15:23:04.980856	encountered: 11000	 current logloss: 0.160175	 difference : 3.779700
+2015-02-19 15:23:22.475528	encountered: 12000	 current logloss: 0.154644	 difference : 3.453008
+2015-02-19 15:23:39.978149	encountered: 13000	 current logloss: 0.150208	 difference : 2.868642
+
+======>   0.105359465546  <======	 sizeIdx :  0
+
+**************************************
+training started for  [5] [] False False True
+2015-02-19 15:24:20.731961	encountered: 1000	 current logloss: 0.379686	 difference : 62.031398
+2015-02-19 15:24:37.367909	encountered: 2000	 current logloss: 0.305126	 difference : 19.637397
+2015-02-19 15:24:54.292067	encountered: 3000	 current logloss: 0.260875	 difference : 14.502360
+2015-02-19 15:25:11.341517	encountered: 4000	 current logloss: 0.236997	 difference : 9.153132
+2015-02-19 15:25:28.495729	encountered: 5000	 current logloss: 0.218718	 difference : 7.712876
+2015-02-19 15:25:45.733869	encountered: 6000	 current logloss: 0.202041	 difference : 7.624614
+2015-02-19 15:26:03.044933	encountered: 7000	 current logloss: 0.191232	 difference : 5.350052
+2015-02-19 15:26:20.390072	encountered: 8000	 current logloss: 0.181563	 difference : 5.056335
+2015-02-19 15:26:37.805144	encountered: 9000	 current logloss: 0.172889	 difference : 4.777285
+2015-02-19 15:26:55.262347	encountered: 10000	 current logloss: 0.166243	 difference : 3.844267
+2015-02-19 15:27:12.750547	encountered: 11000	 current logloss: 0.160010	 difference : 3.749257
+2015-02-19 15:27:30.277470	encountered: 12000	 current logloss: 0.154639	 difference : 3.356365
+2015-02-19 15:27:47.838560	encountered: 13000	 current logloss: 0.150097	 difference : 2.937201
+
+======>   0.102434802077  <======	 sizeIdx :  0
+
+**************************************
+training started for  [6] [] False False True
+2015-02-19 15:28:27.977988	encountered: 1000	 current logloss: 0.382393	 difference : 61.760717
+2015-02-19 15:28:44.532193	encountered: 2000	 current logloss: 0.307413	 difference : 19.607950
+2015-02-19 15:29:01.359337	encountered: 3000	 current logloss: 0.262426	 difference : 14.634073
+2015-02-19 15:29:18.330492	encountered: 4000	 current logloss: 0.237694	 difference : 9.424536
+2015-02-19 15:29:35.398582	encountered: 5000	 current logloss: 0.219314	 difference : 7.732618
+2015-02-19 15:29:52.550318	encountered: 6000	 current logloss: 0.202826	 difference : 7.518102
+2015-02-19 15:30:09.783607	encountered: 7000	 current logloss: 0.191489	 difference : 5.589563
+2015-02-19 15:30:27.042225	encountered: 8000	 current logloss: 0.181623	 difference : 5.152225
+2015-02-19 15:30:44.361973	encountered: 9000	 current logloss: 0.172933	 difference : 4.784587
+2015-02-19 15:31:01.709624	encountered: 10000	 current logloss: 0.166245	 difference : 3.867418
+2015-02-19 15:31:19.065070	encountered: 11000	 current logloss: 0.159931	 difference : 3.797615
+2015-02-19 15:31:36.466891	encountered: 12000	 current logloss: 0.154443	 difference : 3.431994
+2015-02-19 15:31:53.895148	encountered: 13000	 current logloss: 0.149936	 difference : 2.918006
+
+======>   0.104537298825  <======	 sizeIdx :  0
+
+**************************************
+training started for  [7] [] False False True
+2015-02-19 15:32:34.018540	encountered: 1000	 current logloss: 0.382939	 difference : 61.706056
+2015-02-19 15:32:50.615572	encountered: 2000	 current logloss: 0.306206	 difference : 20.038082
+2015-02-19 15:33:07.513398	encountered: 3000	 current logloss: 0.260942	 difference : 14.781988
+2015-02-19 15:33:24.561650	encountered: 4000	 current logloss: 0.236452	 difference : 9.385201
+2015-02-19 15:33:41.711113	encountered: 5000	 current logloss: 0.218435	 difference : 7.619863
+2015-02-19 15:33:58.927231	encountered: 6000	 current logloss: 0.202046	 difference : 7.502928
+2015-02-19 15:34:16.209957	encountered: 7000	 current logloss: 0.191103	 difference : 5.416154
+2015-02-19 15:34:33.509449	encountered: 8000	 current logloss: 0.181309	 difference : 5.125017
+2015-02-19 15:34:50.898808	encountered: 9000	 current logloss: 0.172572	 difference : 4.818839
+2015-02-19 15:35:08.351913	encountered: 10000	 current logloss: 0.166000	 difference : 3.808039
+2015-02-19 15:35:25.798142	encountered: 11000	 current logloss: 0.159765	 difference : 3.756492
+2015-02-19 15:35:43.288874	encountered: 12000	 current logloss: 0.154301	 difference : 3.419644
+2015-02-19 15:36:00.820169	encountered: 13000	 current logloss: 0.149866	 difference : 2.874653
+
+======>   0.103693598246  <======	 sizeIdx :  0
+
+**************************************
+training started for  [8] [] False False True
+2015-02-19 15:36:41.042242	encountered: 1000	 current logloss: 0.381567	 difference : 61.843254
+2015-02-19 15:36:57.751906	encountered: 2000	 current logloss: 0.306753	 difference : 19.607117
+2015-02-19 15:37:14.739600	encountered: 3000	 current logloss: 0.262382	 difference : 14.464760
+2015-02-19 15:37:31.860250	encountered: 4000	 current logloss: 0.237303	 difference : 9.558111
+2015-02-19 15:37:49.104677	encountered: 5000	 current logloss: 0.219164	 difference : 7.644090
+2015-02-19 15:38:06.431296	encountered: 6000	 current logloss: 0.202557	 difference : 7.577462
+2015-02-19 15:38:23.837314	encountered: 7000	 current logloss: 0.191481	 difference : 5.467773
+2015-02-19 15:38:41.278294	encountered: 8000	 current logloss: 0.181619	 difference : 5.150534
+2015-02-19 15:38:58.795482	encountered: 9000	 current logloss: 0.173036	 difference : 4.725559
+2015-02-19 15:39:16.347811	encountered: 10000	 current logloss: 0.166362	 difference : 3.857002
+2015-02-19 15:39:33.901110	encountered: 11000	 current logloss: 0.160075	 difference : 3.779491
+2015-02-19 15:39:51.501167	encountered: 12000	 current logloss: 0.154598	 difference : 3.421054
+2015-02-19 15:40:09.130541	encountered: 13000	 current logloss: 0.150105	 difference : 2.906844
+
+======>   0.105109314386  <======	 sizeIdx :  0
+
+**************************************
+training started for  [9] [] False False True
+2015-02-19 15:40:49.250506	encountered: 1000	 current logloss: 0.382301	 difference : 61.769861
+2015-02-19 15:41:05.787155	encountered: 2000	 current logloss: 0.306664	 difference : 19.784721
+2015-02-19 15:41:22.605253	encountered: 3000	 current logloss: 0.261363	 difference : 14.772122
+2015-02-19 15:41:39.560508	encountered: 4000	 current logloss: 0.236792	 difference : 9.401378
+2015-02-19 15:41:56.634142	encountered: 5000	 current logloss: 0.218572	 difference : 7.694204
+2015-02-19 15:42:13.771385	encountered: 6000	 current logloss: 0.201865	 difference : 7.643852
+2015-02-19 15:42:30.969954	encountered: 7000	 current logloss: 0.190885	 difference : 5.439204
+2015-02-19 15:42:48.199353	encountered: 8000	 current logloss: 0.181065	 difference : 5.144490
+2015-02-19 15:43:05.508799	encountered: 9000	 current logloss: 0.172516	 difference : 4.721289
+2015-02-19 15:43:22.854291	encountered: 10000	 current logloss: 0.165857	 difference : 3.860290
+2015-02-19 15:43:40.213104	encountered: 11000	 current logloss: 0.159682	 difference : 3.722923
+2015-02-19 15:43:57.608654	encountered: 12000	 current logloss: 0.154209	 difference : 3.427507
+2015-02-19 15:44:15.032982	encountered: 13000	 current logloss: 0.149663	 difference : 2.947964
+
+======>   0.103568639918  <======	 sizeIdx :  0
+
+**************************************
+training started for  [10] [] False False True
+2015-02-19 15:44:55.127694	encountered: 1000	 current logloss: 0.379825	 difference : 62.017476
+2015-02-19 15:45:11.722343	encountered: 2000	 current logloss: 0.304653	 difference : 19.791322
+2015-02-19 15:45:28.601516	encountered: 3000	 current logloss: 0.260292	 difference : 14.560941
+2015-02-19 15:45:45.607714	encountered: 4000	 current logloss: 0.236728	 difference : 9.053144
+2015-02-19 15:46:02.732884	encountered: 5000	 current logloss: 0.218701	 difference : 7.614821
+2015-02-19 15:46:19.904997	encountered: 6000	 current logloss: 0.202094	 difference : 7.593482
+2015-02-19 15:46:37.154741	encountered: 7000	 current logloss: 0.191266	 difference : 5.357932
+2015-02-19 15:46:54.436336	encountered: 8000	 current logloss: 0.181479	 difference : 5.117326
+2015-02-19 15:47:11.773237	encountered: 9000	 current logloss: 0.172858	 difference : 4.750353
+2015-02-19 15:47:29.164466	encountered: 10000	 current logloss: 0.166257	 difference : 3.818423
+2015-02-19 15:47:46.562390	encountered: 11000	 current logloss: 0.159909	 difference : 3.818082
+2015-02-19 15:48:03.995993	encountered: 12000	 current logloss: 0.154449	 difference : 3.414696
+2015-02-19 15:48:21.458551	encountered: 13000	 current logloss: 0.149952	 difference : 2.911872
+
+======>   0.106167828701  <======	 sizeIdx :  0
+
+**************************************
+training started for  [11] [] False False True
+2015-02-19 15:49:01.803308	encountered: 1000	 current logloss: 0.383239	 difference : 61.676134
+2015-02-19 15:49:18.381843	encountered: 2000	 current logloss: 0.305178	 difference : 20.368683
+2015-02-19 15:49:35.235450	encountered: 3000	 current logloss: 0.260361	 difference : 14.685537
+2015-02-19 15:49:52.219517	encountered: 4000	 current logloss: 0.236646	 difference : 9.108410
+2015-02-19 15:50:09.307860	encountered: 5000	 current logloss: 0.218878	 difference : 7.508320
+2015-02-19 15:50:26.485815	encountered: 6000	 current logloss: 0.202312	 difference : 7.568415
+2015-02-19 15:50:43.740107	encountered: 7000	 current logloss: 0.191478	 difference : 5.355363
+2015-02-19 15:51:00.999242	encountered: 8000	 current logloss: 0.181537	 difference : 5.191467
+2015-02-19 15:51:18.339210	encountered: 9000	 current logloss: 0.172916	 difference : 4.749018
+2015-02-19 15:51:35.735194	encountered: 10000	 current logloss: 0.166389	 difference : 3.774782
+2015-02-19 15:51:53.147102	encountered: 11000	 current logloss: 0.160163	 difference : 3.741554
+2015-02-19 15:52:10.595795	encountered: 12000	 current logloss: 0.154763	 difference : 3.371832
+2015-02-19 15:52:28.069166	encountered: 13000	 current logloss: 0.150267	 difference : 2.905059
+
+======>   0.102125080739  <======	 sizeIdx :  0
+
+**************************************
+training started for  [12] [] False False True
+2015-02-19 15:53:08.401587	encountered: 1000	 current logloss: 0.380743	 difference : 61.925677
+2015-02-19 15:53:25.052341	encountered: 2000	 current logloss: 0.306889	 difference : 19.397402
+2015-02-19 15:53:41.967369	encountered: 3000	 current logloss: 0.262807	 difference : 14.364257
+2015-02-19 15:53:59.004190	encountered: 4000	 current logloss: 0.237849	 difference : 9.496609
+2015-02-19 15:54:16.135918	encountered: 5000	 current logloss: 0.219139	 difference : 7.866178
+2015-02-19 15:54:33.372340	encountered: 6000	 current logloss: 0.202516	 difference : 7.585738
+2015-02-19 15:54:50.674835	encountered: 7000	 current logloss: 0.191450	 difference : 5.464279
+2015-02-19 15:55:07.998775	encountered: 8000	 current logloss: 0.181810	 difference : 5.035143
+2015-02-19 15:55:25.391230	encountered: 9000	 current logloss: 0.173397	 difference : 4.627441
+2015-02-19 15:55:42.849752	encountered: 10000	 current logloss: 0.166727	 difference : 3.846384
+2015-02-19 15:56:00.314264	encountered: 11000	 current logloss: 0.160372	 difference : 3.811728
+2015-02-19 15:56:17.809824	encountered: 12000	 current logloss: 0.154901	 difference : 3.411724
+2015-02-19 15:56:35.337495	encountered: 13000	 current logloss: 0.150451	 difference : 2.872797
+
+======>   0.101667670849  <======	 sizeIdx :  0
+
+**************************************
+training started for  [13] [] False False True
+2015-02-19 15:57:15.739681	encountered: 1000	 current logloss: 0.382356	 difference : 61.764397
+2015-02-19 15:57:32.337373	encountered: 2000	 current logloss: 0.304356	 difference : 20.399830
+2015-02-19 15:57:49.206696	encountered: 3000	 current logloss: 0.260454	 difference : 14.424534
+2015-02-19 15:58:06.216054	encountered: 4000	 current logloss: 0.236208	 difference : 9.309352
+2015-02-19 15:58:23.331505	encountered: 5000	 current logloss: 0.218539	 difference : 7.480037
+2015-02-19 15:58:40.532497	encountered: 6000	 current logloss: 0.201998	 difference : 7.569001
+2015-02-19 15:58:57.809561	encountered: 7000	 current logloss: 0.191099	 difference : 5.395773
+2015-02-19 15:59:15.095392	encountered: 8000	 current logloss: 0.181322	 difference : 5.115768
+2015-02-19 15:59:32.459249	encountered: 9000	 current logloss: 0.172797	 difference : 4.701846
+2015-02-19 15:59:49.882855	encountered: 10000	 current logloss: 0.166282	 difference : 3.770318
+2015-02-19 16:00:07.316156	encountered: 11000	 current logloss: 0.160061	 difference : 3.740987
+2015-02-19 16:00:24.786512	encountered: 12000	 current logloss: 0.154639	 difference : 3.387743
+2015-02-19 16:00:42.254067	encountered: 13000	 current logloss: 0.150135	 difference : 2.912611
+
+======>   0.102323815372  <======	 sizeIdx :  0
+
+**************************************
+training started for  [14] [] False False True
+2015-02-19 16:01:22.525217	encountered: 1000	 current logloss: 0.383660	 difference : 61.634029
+2015-02-19 16:01:39.094996	encountered: 2000	 current logloss: 0.307863	 difference : 19.756301
+2015-02-19 16:01:55.923348	encountered: 3000	 current logloss: 0.262992	 difference : 14.574871
+2015-02-19 16:02:12.883433	encountered: 4000	 current logloss: 0.237680	 difference : 9.624825
+2015-02-19 16:02:29.950420	encountered: 5000	 current logloss: 0.219049	 difference : 7.838623
+2015-02-19 16:02:47.115333	encountered: 6000	 current logloss: 0.202556	 difference : 7.529200
+2015-02-19 16:03:04.358675	encountered: 7000	 current logloss: 0.191265	 difference : 5.574323
+2015-02-19 16:03:21.600722	encountered: 8000	 current logloss: 0.181478	 difference : 5.116880
+2015-02-19 16:03:38.915603	encountered: 9000	 current logloss: 0.172765	 difference : 4.801028
+2015-02-19 16:03:56.282717	encountered: 10000	 current logloss: 0.166130	 difference : 3.840973
+2015-02-19 16:04:13.672919	encountered: 11000	 current logloss: 0.159874	 difference : 3.765688
+2015-02-19 16:04:31.096944	encountered: 12000	 current logloss: 0.154466	 difference : 3.382575
+2015-02-19 16:04:48.541074	encountered: 13000	 current logloss: 0.150044	 difference : 2.862907
+
+======>   0.103256556301  <======	 sizeIdx :  0
+
+**************************************
+training started for  [15] [] False False True
+2015-02-19 16:05:28.827905	encountered: 1000	 current logloss: 0.380344	 difference : 61.965585
+2015-02-19 16:05:45.339117	encountered: 2000	 current logloss: 0.304802	 difference : 19.861573
+2015-02-19 16:06:02.137922	encountered: 3000	 current logloss: 0.260836	 difference : 14.424541
+2015-02-19 16:06:19.048409	encountered: 4000	 current logloss: 0.237199	 difference : 9.061794
+2015-02-19 16:06:36.058561	encountered: 5000	 current logloss: 0.219538	 difference : 7.445665
+2015-02-19 16:06:53.164312	encountered: 6000	 current logloss: 0.202815	 difference : 7.617330
+2015-02-19 16:07:10.334255	encountered: 7000	 current logloss: 0.191966	 difference : 5.349045
+2015-02-19 16:07:27.535219	encountered: 8000	 current logloss: 0.182231	 difference : 5.071513
+2015-02-19 16:07:44.822207	encountered: 9000	 current logloss: 0.173760	 difference : 4.648545
+2015-02-19 16:08:02.167157	encountered: 10000	 current logloss: 0.166991	 difference : 3.895245
+2015-02-19 16:08:19.507908	encountered: 11000	 current logloss: 0.160573	 difference : 3.843539
+2015-02-19 16:08:36.872572	encountered: 12000	 current logloss: 0.155039	 difference : 3.446325
+2015-02-19 16:08:54.279739	encountered: 13000	 current logloss: 0.150430	 difference : 2.972901
+
+======>   0.110487738489  <======	 sizeIdx :  0
+
+**************************************
+training started for  [16] [] False False True
+2015-02-19 16:09:34.379236	encountered: 1000	 current logloss: 0.382806	 difference : 61.719352
+2015-02-19 16:09:50.921535	encountered: 2000	 current logloss: 0.306906	 difference : 19.827449
+2015-02-19 16:10:07.737605	encountered: 3000	 current logloss: 0.260795	 difference : 15.024444
+2015-02-19 16:10:24.670066	encountered: 4000	 current logloss: 0.236493	 difference : 9.318188
+2015-02-19 16:10:41.712931	encountered: 5000	 current logloss: 0.218552	 difference : 7.586497
+2015-02-19 16:10:58.838319	encountered: 6000	 current logloss: 0.202239	 difference : 7.464158
+2015-02-19 16:11:16.043856	encountered: 7000	 current logloss: 0.191236	 difference : 5.440544
+2015-02-19 16:11:33.259166	encountered: 8000	 current logloss: 0.181362	 difference : 5.163345
+2015-02-19 16:11:50.544813	encountered: 9000	 current logloss: 0.172845	 difference : 4.695976
+2015-02-19 16:12:07.876006	encountered: 10000	 current logloss: 0.166106	 difference : 3.899172
+2015-02-19 16:12:25.208645	encountered: 11000	 current logloss: 0.159883	 difference : 3.746353
+2015-02-19 16:12:42.572800	encountered: 12000	 current logloss: 0.154378	 difference : 3.442646
+2015-02-19 16:12:59.961084	encountered: 13000	 current logloss: 0.149926	 difference : 2.883809
+
+======>   0.103103895758  <======	 sizeIdx :  0
+
+**************************************
+training started for  [17] [] False False True
+2015-02-19 16:13:40.055206	encountered: 1000	 current logloss: 0.384952	 difference : 61.504758
+2015-02-19 16:13:56.600392	encountered: 2000	 current logloss: 0.307225	 difference : 20.191424
+2015-02-19 16:14:13.400915	encountered: 3000	 current logloss: 0.262479	 difference : 14.564628
+2015-02-19 16:14:30.347456	encountered: 4000	 current logloss: 0.237801	 difference : 9.401769
+2015-02-19 16:14:47.403072	encountered: 5000	 current logloss: 0.219474	 difference : 7.706809
+2015-02-19 16:15:04.516484	encountered: 6000	 current logloss: 0.202638	 difference : 7.671307
+2015-02-19 16:15:21.701530	encountered: 7000	 current logloss: 0.191644	 difference : 5.425468
+2015-02-19 16:15:38.928013	encountered: 8000	 current logloss: 0.181726	 difference : 5.175228
+2015-02-19 16:15:56.225269	encountered: 9000	 current logloss: 0.173004	 difference : 4.799443
+2015-02-19 16:16:13.582549	encountered: 10000	 current logloss: 0.166430	 difference : 3.799962
+2015-02-19 16:16:30.944808	encountered: 11000	 current logloss: 0.160099	 difference : 3.804055
+2015-02-19 16:16:48.324497	encountered: 12000	 current logloss: 0.154731	 difference : 3.352490
+2015-02-19 16:17:05.746962	encountered: 13000	 current logloss: 0.150342	 difference : 2.836809
+
+======>   0.102069021832  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18] [] False False True
+2015-02-19 16:17:45.806018	encountered: 1000	 current logloss: 0.379697	 difference : 62.030334
+2015-02-19 16:18:02.311722	encountered: 2000	 current logloss: 0.305404	 difference : 19.566309
+2015-02-19 16:18:19.075802	encountered: 3000	 current logloss: 0.261483	 difference : 14.381302
+2015-02-19 16:18:35.979023	encountered: 4000	 current logloss: 0.237106	 difference : 9.322730
+2015-02-19 16:18:53.009240	encountered: 5000	 current logloss: 0.218661	 difference : 7.779009
+2015-02-19 16:19:10.108792	encountered: 6000	 current logloss: 0.201829	 difference : 7.697844
+2015-02-19 16:19:27.272042	encountered: 7000	 current logloss: 0.190862	 difference : 5.433970
+2015-02-19 16:19:44.461745	encountered: 8000	 current logloss: 0.181066	 difference : 5.132464
+2015-02-19 16:20:01.724862	encountered: 9000	 current logloss: 0.172532	 difference : 4.713125
+2015-02-19 16:20:19.031559	encountered: 10000	 current logloss: 0.165925	 difference : 3.829610
+2015-02-19 16:20:36.357190	encountered: 11000	 current logloss: 0.159503	 difference : 3.869890
+2015-02-19 16:20:53.739094	encountered: 12000	 current logloss: 0.153966	 difference : 3.471554
+2015-02-19 16:21:11.171225	encountered: 13000	 current logloss: 0.149522	 difference : 2.886766
+
+======>   0.100387292331  <======	 sizeIdx :  0
+
+**************************************
+training started for  [19] [] False False True
+2015-02-19 16:21:51.276049	encountered: 1000	 current logloss: 0.382221	 difference : 61.777949
+2015-02-19 16:22:07.885119	encountered: 2000	 current logloss: 0.305872	 difference : 19.975104
+2015-02-19 16:22:24.764899	encountered: 3000	 current logloss: 0.261895	 difference : 14.377598
+2015-02-19 16:22:41.806753	encountered: 4000	 current logloss: 0.237108	 difference : 9.464371
+2015-02-19 16:22:58.962553	encountered: 5000	 current logloss: 0.218725	 difference : 7.753024
+2015-02-19 16:23:16.171570	encountered: 6000	 current logloss: 0.202266	 difference : 7.524872
+2015-02-19 16:23:33.456577	encountered: 7000	 current logloss: 0.191080	 difference : 5.530202
+2015-02-19 16:23:50.779644	encountered: 8000	 current logloss: 0.181311	 difference : 5.112620
+2015-02-19 16:24:08.180193	encountered: 9000	 current logloss: 0.172783	 difference : 4.703850
+2015-02-19 16:24:25.606642	encountered: 10000	 current logloss: 0.166131	 difference : 3.849481
+2015-02-19 16:24:43.062864	encountered: 11000	 current logloss: 0.159907	 difference : 3.746901
+2015-02-19 16:25:00.551481	encountered: 12000	 current logloss: 0.154469	 difference : 3.400251
+2015-02-19 16:25:18.064076	encountered: 13000	 current logloss: 0.149975	 difference : 2.909528
+
+======>   0.105163633755  <======	 sizeIdx :  0
+
+**************************************
+training started for  [20] [] False False True
+2015-02-19 16:25:58.146886	encountered: 1000	 current logloss: 0.382070	 difference : 61.793046
+2015-02-19 16:26:14.686777	encountered: 2000	 current logloss: 0.307591	 difference : 19.493435
+2015-02-19 16:26:31.508505	encountered: 3000	 current logloss: 0.262289	 difference : 14.728174
+2015-02-19 16:26:48.467431	encountered: 4000	 current logloss: 0.237812	 difference : 9.331745
+2015-02-19 16:27:05.529686	encountered: 5000	 current logloss: 0.219295	 difference : 7.786490
+2015-02-19 16:27:22.672985	encountered: 6000	 current logloss: 0.202835	 difference : 7.506133
+2015-02-19 16:27:39.894915	encountered: 7000	 current logloss: 0.191755	 difference : 5.462257
+2015-02-19 16:27:57.131600	encountered: 8000	 current logloss: 0.181925	 difference : 5.126530
+2015-02-19 16:28:14.433848	encountered: 9000	 current logloss: 0.173143	 difference : 4.827430
+2015-02-19 16:28:31.792235	encountered: 10000	 current logloss: 0.166401	 difference : 3.893545
+2015-02-19 16:28:49.153787	encountered: 11000	 current logloss: 0.160084	 difference : 3.796161
+2015-02-19 16:29:06.569395	encountered: 12000	 current logloss: 0.154632	 difference : 3.405650
+2015-02-19 16:29:24.000596	encountered: 13000	 current logloss: 0.150154	 difference : 2.895976
+
+======>   0.104779226475  <======	 sizeIdx :  0
+
+**************************************
+training started for  [21] [] False False True
+2015-02-19 16:30:04.106434	encountered: 1000	 current logloss: 0.382404	 difference : 61.759588
+2015-02-19 16:30:20.680350	encountered: 2000	 current logloss: 0.305654	 difference : 20.070353
+2015-02-19 16:30:37.505769	encountered: 3000	 current logloss: 0.261668	 difference : 14.390827
+2015-02-19 16:30:54.472912	encountered: 4000	 current logloss: 0.237298	 difference : 9.313225
+2015-02-19 16:31:11.564472	encountered: 5000	 current logloss: 0.218769	 difference : 7.808362
+2015-02-19 16:31:28.742046	encountered: 6000	 current logloss: 0.202157	 difference : 7.593506
+2015-02-19 16:31:45.992266	encountered: 7000	 current logloss: 0.191239	 difference : 5.400786
+2015-02-19 16:32:03.257456	encountered: 8000	 current logloss: 0.181508	 difference : 5.088195
+2015-02-19 16:32:20.607182	encountered: 9000	 current logloss: 0.172969	 difference : 4.704897
+2015-02-19 16:32:38.003303	encountered: 10000	 current logloss: 0.166289	 difference : 3.861749
+2015-02-19 16:32:55.399556	encountered: 11000	 current logloss: 0.160022	 difference : 3.768866
+2015-02-19 16:33:12.827845	encountered: 12000	 current logloss: 0.154582	 difference : 3.399635
+2015-02-19 16:33:30.288761	encountered: 13000	 current logloss: 0.150140	 difference : 2.872993
+
+======>   0.104845080251  <======	 sizeIdx :  0
+
+**************************************
+training started for  [22] [] False False True
+2015-02-19 16:34:10.418384	encountered: 1000	 current logloss: 0.670322	 difference : 32.967788
+2015-02-19 16:34:26.976503	encountered: 2000	 current logloss: 0.569368	 difference : 15.060477
+2015-02-19 16:34:43.820411	encountered: 3000	 current logloss: 0.501457	 difference : 11.927566
+2015-02-19 16:35:00.825037	encountered: 4000	 current logloss: 0.457531	 difference : 8.759680
+2015-02-19 16:35:17.976431	encountered: 5000	 current logloss: 0.428868	 difference : 6.264535
+2015-02-19 16:35:35.226328	encountered: 6000	 current logloss: 0.401181	 difference : 6.455897
+2015-02-19 16:35:52.520775	encountered: 7000	 current logloss: 0.385016	 difference : 4.029334
+2015-02-19 16:36:09.825498	encountered: 8000	 current logloss: 0.367610	 difference : 4.520926
+2015-02-19 16:36:27.208672	encountered: 9000	 current logloss: 0.353143	 difference : 3.935282
+2015-02-19 16:36:44.668700	encountered: 10000	 current logloss: 0.340324	 difference : 3.630083
+2015-02-19 16:37:02.157663	encountered: 11000	 current logloss: 0.328873	 difference : 3.364622
+2015-02-19 16:37:19.686284	encountered: 12000	 current logloss: 0.318622	 difference : 3.116995
+2015-02-19 16:37:37.245948	encountered: 13000	 current logloss: 0.310227	 difference : 2.634952
+
+======>   0.26581669697  <======	 sizeIdx :  0
+
+**************************************
+training started for  [23] [] False False True
+2015-02-19 16:38:17.279142	encountered: 1000	 current logloss: 0.641458	 difference : 35.854183
+2015-02-19 16:38:33.870898	encountered: 2000	 current logloss: 0.535868	 difference : 16.460960
+2015-02-19 16:38:50.711376	encountered: 3000	 current logloss: 0.470953	 difference : 12.114045
+2015-02-19 16:39:07.718921	encountered: 4000	 current logloss: 0.430018	 difference : 8.691800
+2015-02-19 16:39:24.872816	encountered: 5000	 current logloss: 0.401212	 difference : 6.698908
+2015-02-19 16:39:42.109245	encountered: 6000	 current logloss: 0.374601	 difference : 6.632711
+2015-02-19 16:39:59.435196	encountered: 7000	 current logloss: 0.356171	 difference : 4.919887
+2015-02-19 16:40:16.782230	encountered: 8000	 current logloss: 0.339687	 difference : 4.627951
+2015-02-19 16:40:34.173549	encountered: 9000	 current logloss: 0.325100	 difference : 4.294408
+2015-02-19 16:40:51.624759	encountered: 10000	 current logloss: 0.312434	 difference : 3.895884
+2015-02-19 16:41:09.129579	encountered: 11000	 current logloss: 0.301969	 difference : 3.349695
+2015-02-19 16:41:26.648931	encountered: 12000	 current logloss: 0.292530	 difference : 3.125766
+2015-02-19 16:41:44.188833	encountered: 13000	 current logloss: 0.284164	 difference : 2.859900
+
+======>   0.208631801615  <======	 sizeIdx :  0
+
+**************************************
+training started for  [24] [] False False True
+2015-02-19 16:42:24.345421	encountered: 1000	 current logloss: 0.380171	 difference : 61.982937
+2015-02-19 16:42:40.983336	encountered: 2000	 current logloss: 0.305138	 difference : 19.736615
+2015-02-19 16:42:57.910897	encountered: 3000	 current logloss: 0.260568	 difference : 14.606453
+2015-02-19 16:43:14.970490	encountered: 4000	 current logloss: 0.236867	 difference : 9.095898
+2015-02-19 16:43:32.129814	encountered: 5000	 current logloss: 0.218720	 difference : 7.661175
+2015-02-19 16:43:49.337636	encountered: 6000	 current logloss: 0.202020	 difference : 7.635451
+2015-02-19 16:44:06.637667	encountered: 7000	 current logloss: 0.191201	 difference : 5.355376
+2015-02-19 16:44:23.949420	encountered: 8000	 current logloss: 0.181391	 difference : 5.130574
+2015-02-19 16:44:41.335233	encountered: 9000	 current logloss: 0.172837	 difference : 4.715948
+2015-02-19 16:44:58.777056	encountered: 10000	 current logloss: 0.166189	 difference : 3.846537
+2015-02-19 16:45:16.219560	encountered: 11000	 current logloss: 0.159894	 difference : 3.787894
+2015-02-19 16:45:33.698967	encountered: 12000	 current logloss: 0.154426	 difference : 3.419267
+2015-02-19 16:45:51.214231	encountered: 13000	 current logloss: 0.149974	 difference : 2.883549
+
+======>   0.105647431031  <======	 sizeIdx :  0
+
+**************************************
+training started for  [25] [] False False True
+2015-02-19 16:46:31.541235	encountered: 1000	 current logloss: 0.382189	 difference : 61.781121
+2015-02-19 16:46:48.124361	encountered: 2000	 current logloss: 0.304412	 difference : 20.350315
+2015-02-19 16:47:04.970161	encountered: 3000	 current logloss: 0.260778	 difference : 14.333787
+2015-02-19 16:47:21.953464	encountered: 4000	 current logloss: 0.236836	 difference : 9.181164
+2015-02-19 16:47:39.048786	encountered: 5000	 current logloss: 0.218740	 difference : 7.640726
+2015-02-19 16:47:56.204006	encountered: 6000	 current logloss: 0.202269	 difference : 7.529892
+2015-02-19 16:48:13.453208	encountered: 7000	 current logloss: 0.191559	 difference : 5.294777
+2015-02-19 16:48:30.710916	encountered: 8000	 current logloss: 0.181766	 difference : 5.112221
+2015-02-19 16:48:48.052626	encountered: 9000	 current logloss: 0.173190	 difference : 4.718278
+2015-02-19 16:49:05.450646	encountered: 10000	 current logloss: 0.166561	 difference : 3.827718
+2015-02-19 16:49:22.864328	encountered: 11000	 current logloss: 0.160334	 difference : 3.738781
+2015-02-19 16:49:40.305026	encountered: 12000	 current logloss: 0.154878	 difference : 3.402472
+2015-02-19 16:49:57.769202	encountered: 13000	 current logloss: 0.150343	 difference : 2.928535
+
+======>   0.101884594542  <======	 sizeIdx :  0
+
+**************************************
+training started for  [26] [] False False True
+2015-02-19 16:50:38.073103	encountered: 1000	 current logloss: 0.380162	 difference : 61.983802
+2015-02-19 16:50:54.693496	encountered: 2000	 current logloss: 0.305068	 difference : 19.753036
+2015-02-19 16:51:11.603706	encountered: 3000	 current logloss: 0.260453	 difference : 14.624857
+2015-02-19 16:51:28.639421	encountered: 4000	 current logloss: 0.236723	 difference : 9.111051
+2015-02-19 16:51:45.776667	encountered: 5000	 current logloss: 0.218649	 difference : 7.635116
+2015-02-19 16:52:02.963763	encountered: 6000	 current logloss: 0.201962	 difference : 7.631873
+2015-02-19 16:52:20.233997	encountered: 7000	 current logloss: 0.191155	 difference : 5.351002
+2015-02-19 16:52:37.525896	encountered: 8000	 current logloss: 0.181368	 difference : 5.119747
+2015-02-19 16:52:54.884796	encountered: 9000	 current logloss: 0.172805	 difference : 4.721112
+2015-02-19 16:53:12.306112	encountered: 10000	 current logloss: 0.166152	 difference : 3.850203
+2015-02-19 16:53:29.720102	encountered: 11000	 current logloss: 0.159864	 difference : 3.784537
+2015-02-19 16:53:47.178156	encountered: 12000	 current logloss: 0.154402	 difference : 3.416902
+2015-02-19 16:54:04.672922	encountered: 13000	 current logloss: 0.149948	 difference : 2.884303
+
+======>   0.105583104744  <======	 sizeIdx :  0
+
+**************************************
+training started for  [27] [] False False True
+2015-02-19 16:54:44.966794	encountered: 1000	 current logloss: 0.380218	 difference : 61.978206
+2015-02-19 16:55:01.511184	encountered: 2000	 current logloss: 0.306535	 difference : 19.379020
+2015-02-19 16:55:18.355888	encountered: 3000	 current logloss: 0.262696	 difference : 14.301561
+2015-02-19 16:55:35.317123	encountered: 4000	 current logloss: 0.237714	 difference : 9.509900
+2015-02-19 16:55:52.375705	encountered: 5000	 current logloss: 0.219552	 difference : 7.640144
+2015-02-19 16:56:09.492912	encountered: 6000	 current logloss: 0.203027	 difference : 7.526582
+2015-02-19 16:56:26.680864	encountered: 7000	 current logloss: 0.192049	 difference : 5.407194
+2015-02-19 16:56:43.891327	encountered: 8000	 current logloss: 0.182199	 difference : 5.128843
+2015-02-19 16:57:01.182884	encountered: 9000	 current logloss: 0.173410	 difference : 4.824132
+2015-02-19 16:57:18.521730	encountered: 10000	 current logloss: 0.166613	 difference : 3.919684
+2015-02-19 16:57:35.874934	encountered: 11000	 current logloss: 0.160411	 difference : 3.722328
+2015-02-19 16:57:53.287024	encountered: 12000	 current logloss: 0.154868	 difference : 3.455278
+2015-02-19 16:58:10.739074	encountered: 13000	 current logloss: 0.150344	 difference : 2.921398
+
+======>   0.106496707253  <======	 sizeIdx :  0
+
+**************************************
+training started for  [28] [] False False True
+2015-02-19 16:58:50.994297	encountered: 1000	 current logloss: 0.381470	 difference : 61.852986
+2015-02-19 16:59:07.728803	encountered: 2000	 current logloss: 0.304797	 difference : 20.099394
+2015-02-19 16:59:24.730571	encountered: 3000	 current logloss: 0.261435	 difference : 14.226487
+2015-02-19 16:59:41.876558	encountered: 4000	 current logloss: 0.236743	 difference : 9.444788
+2015-02-19 16:59:59.158989	encountered: 5000	 current logloss: 0.218851	 difference : 7.557443
+2015-02-19 17:00:16.526128	encountered: 6000	 current logloss: 0.202079	 difference : 7.663657
+2015-02-19 17:00:33.979255	encountered: 7000	 current logloss: 0.190894	 difference : 5.535243
+2015-02-19 17:00:51.462178	encountered: 8000	 current logloss: 0.181079	 difference : 5.141616
+2015-02-19 17:01:09.019256	encountered: 9000	 current logloss: 0.172567	 difference : 4.700642
+2015-02-19 17:01:26.621206	encountered: 10000	 current logloss: 0.165889	 difference : 3.869781
+2015-02-19 17:01:44.223500	encountered: 11000	 current logloss: 0.159668	 difference : 3.750218
+2015-02-19 17:02:01.863909	encountered: 12000	 current logloss: 0.154182	 difference : 3.435664
+2015-02-19 17:02:19.522463	encountered: 13000	 current logloss: 0.149718	 difference : 2.895240
+
+======>   0.101567621433  <======	 sizeIdx :  0
+0.105359465546 ==> 0.100387292331
+4.71924680826
+
+**************************************
+training started for  [18, 0] [] False False True
+2015-02-19 17:02:59.593178	encountered: 1000	 current logloss: 0.379697	 difference : 62.030334
+2015-02-19 17:03:16.105837	encountered: 2000	 current logloss: 0.305404	 difference : 19.566309
+2015-02-19 17:03:32.873670	encountered: 3000	 current logloss: 0.261483	 difference : 14.381302
+2015-02-19 17:03:49.777556	encountered: 4000	 current logloss: 0.237106	 difference : 9.322730
+2015-02-19 17:04:06.811954	encountered: 5000	 current logloss: 0.218661	 difference : 7.779009
+2015-02-19 17:04:23.913019	encountered: 6000	 current logloss: 0.201829	 difference : 7.697844
+2015-02-19 17:04:41.079713	encountered: 7000	 current logloss: 0.190862	 difference : 5.433970
+2015-02-19 17:04:58.275506	encountered: 8000	 current logloss: 0.181066	 difference : 5.132464
+2015-02-19 17:05:15.540944	encountered: 9000	 current logloss: 0.172532	 difference : 4.713125
+2015-02-19 17:05:32.854975	encountered: 10000	 current logloss: 0.165925	 difference : 3.829610
+2015-02-19 17:05:50.187317	encountered: 11000	 current logloss: 0.159503	 difference : 3.869890
+2015-02-19 17:06:07.573499	encountered: 12000	 current logloss: 0.153966	 difference : 3.471554
+2015-02-19 17:06:25.011663	encountered: 13000	 current logloss: 0.149522	 difference : 2.886766
+
+======>   0.100387292331  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 1] [] False False True
+2015-02-19 17:07:05.179062	encountered: 1000	 current logloss: 0.381997	 difference : 61.800315
+2015-02-19 17:07:21.745680	encountered: 2000	 current logloss: 0.306039	 difference : 19.884294
+2015-02-19 17:07:38.555907	encountered: 3000	 current logloss: 0.261920	 difference : 14.416117
+2015-02-19 17:07:55.492313	encountered: 4000	 current logloss: 0.237671	 difference : 9.258438
+2015-02-19 17:08:12.555470	encountered: 5000	 current logloss: 0.219347	 difference : 7.709793
+2015-02-19 17:08:29.708669	encountered: 6000	 current logloss: 0.202379	 difference : 7.735718
+2015-02-19 17:08:46.934323	encountered: 7000	 current logloss: 0.191408	 difference : 5.420680
+2015-02-19 17:09:04.171501	encountered: 8000	 current logloss: 0.181433	 difference : 5.211675
+2015-02-19 17:09:21.505768	encountered: 9000	 current logloss: 0.172848	 difference : 4.731684
+2015-02-19 17:09:38.880624	encountered: 10000	 current logloss: 0.166205	 difference : 3.843390
+2015-02-19 17:09:56.262604	encountered: 11000	 current logloss: 0.159860	 difference : 3.817163
+2015-02-19 17:10:13.688199	encountered: 12000	 current logloss: 0.154248	 difference : 3.510755
+2015-02-19 17:10:31.136457	encountered: 13000	 current logloss: 0.149669	 difference : 2.968482
+
+======>   0.101676309568  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 2] [] False False True
+2015-02-19 17:11:11.521359	encountered: 1000	 current logloss: 0.382151	 difference : 61.784904
+2015-02-19 17:11:28.082169	encountered: 2000	 current logloss: 0.305160	 difference : 20.146649
+2015-02-19 17:11:44.888143	encountered: 3000	 current logloss: 0.261052	 difference : 14.454189
+2015-02-19 17:12:01.814758	encountered: 4000	 current logloss: 0.237232	 difference : 9.124677
+2015-02-19 17:12:18.874603	encountered: 5000	 current logloss: 0.218836	 difference : 7.754369
+2015-02-19 17:12:36.015126	encountered: 6000	 current logloss: 0.201909	 difference : 7.735138
+2015-02-19 17:12:53.230311	encountered: 7000	 current logloss: 0.191374	 difference : 5.217625
+2015-02-19 17:13:10.465285	encountered: 8000	 current logloss: 0.181471	 difference : 5.174628
+2015-02-19 17:13:27.790242	encountered: 9000	 current logloss: 0.172820	 difference : 4.766905
+2015-02-19 17:13:45.165814	encountered: 10000	 current logloss: 0.166249	 difference : 3.802498
+2015-02-19 17:14:02.556138	encountered: 11000	 current logloss: 0.159872	 difference : 3.835751
+2015-02-19 17:14:19.982702	encountered: 12000	 current logloss: 0.154220	 difference : 3.535602
+2015-02-19 17:14:37.429176	encountered: 13000	 current logloss: 0.149689	 difference : 2.937509
+
+======>   0.103282777033  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 3] [] False False True
+2015-02-19 17:15:17.882852	encountered: 1000	 current logloss: 0.379697	 difference : 62.030334
+2015-02-19 17:15:34.522755	encountered: 2000	 current logloss: 0.305404	 difference : 19.566309
+2015-02-19 17:15:51.416680	encountered: 3000	 current logloss: 0.261483	 difference : 14.381302
+2015-02-19 17:16:08.452748	encountered: 4000	 current logloss: 0.237106	 difference : 9.322730
+2015-02-19 17:16:25.614472	encountered: 5000	 current logloss: 0.218661	 difference : 7.779009
+2015-02-19 17:16:42.843791	encountered: 6000	 current logloss: 0.201829	 difference : 7.697844
+2015-02-19 17:17:00.142264	encountered: 7000	 current logloss: 0.190862	 difference : 5.433970
+2015-02-19 17:17:17.462205	encountered: 8000	 current logloss: 0.181066	 difference : 5.132464
+2015-02-19 17:17:34.858509	encountered: 9000	 current logloss: 0.172532	 difference : 4.713125
+2015-02-19 17:17:52.306190	encountered: 10000	 current logloss: 0.165925	 difference : 3.829610
+2015-02-19 17:18:09.767601	encountered: 11000	 current logloss: 0.159503	 difference : 3.869890
+2015-02-19 17:18:27.279933	encountered: 12000	 current logloss: 0.153966	 difference : 3.471554
+2015-02-19 17:18:44.842984	encountered: 13000	 current logloss: 0.149522	 difference : 2.886766
+
+======>   0.100387292331  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 4] [] False False True
+2015-02-19 17:19:25.915739	encountered: 1000	 current logloss: 0.379697	 difference : 62.030334
+2015-02-19 17:19:42.873478	encountered: 2000	 current logloss: 0.305404	 difference : 19.566309
+2015-02-19 17:20:00.107047	encountered: 3000	 current logloss: 0.261483	 difference : 14.381302
+2015-02-19 17:20:17.488061	encountered: 4000	 current logloss: 0.237106	 difference : 9.322730
+2015-02-19 17:20:35.003860	encountered: 5000	 current logloss: 0.218661	 difference : 7.779009
+2015-02-19 17:20:52.598249	encountered: 6000	 current logloss: 0.201829	 difference : 7.697844
+2015-02-19 17:21:10.261626	encountered: 7000	 current logloss: 0.190862	 difference : 5.433970
+2015-02-19 17:21:27.953780	encountered: 8000	 current logloss: 0.181066	 difference : 5.132464
+2015-02-19 17:21:45.728549	encountered: 9000	 current logloss: 0.172532	 difference : 4.713125
+2015-02-19 17:22:03.558145	encountered: 10000	 current logloss: 0.165925	 difference : 3.829610
+2015-02-19 17:22:21.394665	encountered: 11000	 current logloss: 0.159503	 difference : 3.869890
+2015-02-19 17:22:39.288547	encountered: 12000	 current logloss: 0.153966	 difference : 3.471554
+2015-02-19 17:22:57.243506	encountered: 13000	 current logloss: 0.149522	 difference : 2.886766
+
+======>   0.100387292331  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 5] [] False False True
+2015-02-19 17:23:37.996617	encountered: 1000	 current logloss: 0.382186	 difference : 61.781355
+2015-02-19 17:23:54.509126	encountered: 2000	 current logloss: 0.305622	 difference : 20.033255
+2015-02-19 17:24:11.302380	encountered: 3000	 current logloss: 0.261283	 difference : 14.507880
+2015-02-19 17:24:28.196979	encountered: 4000	 current logloss: 0.237069	 difference : 9.267083
+2015-02-19 17:24:45.233316	encountered: 5000	 current logloss: 0.218939	 difference : 7.647589
+2015-02-19 17:25:02.344746	encountered: 6000	 current logloss: 0.202083	 difference : 7.698940
+2015-02-19 17:25:19.506055	encountered: 7000	 current logloss: 0.191140	 difference : 5.415342
+2015-02-19 17:25:36.684698	encountered: 8000	 current logloss: 0.181255	 difference : 5.171494
+2015-02-19 17:25:53.943441	encountered: 9000	 current logloss: 0.172656	 difference : 4.744066
+2015-02-19 17:26:11.262398	encountered: 10000	 current logloss: 0.166091	 difference : 3.802233
+2015-02-19 17:26:28.603279	encountered: 11000	 current logloss: 0.159768	 difference : 3.807308
+2015-02-19 17:26:45.992980	encountered: 12000	 current logloss: 0.154169	 difference : 3.504276
+2015-02-19 17:27:03.433106	encountered: 13000	 current logloss: 0.149661	 difference : 2.923968
+
+======>   0.101044501177  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 6] [] False False True
+2015-02-19 17:27:43.537574	encountered: 1000	 current logloss: 0.379796	 difference : 62.020412
+2015-02-19 17:28:00.074570	encountered: 2000	 current logloss: 0.305096	 difference : 19.668358
+2015-02-19 17:28:16.863599	encountered: 3000	 current logloss: 0.261057	 difference : 14.434680
+2015-02-19 17:28:33.786118	encountered: 4000	 current logloss: 0.236819	 difference : 9.284230
+2015-02-19 17:28:50.841873	encountered: 5000	 current logloss: 0.218681	 difference : 7.659099
+2015-02-19 17:29:07.961448	encountered: 6000	 current logloss: 0.201862	 difference : 7.691260
+2015-02-19 17:29:25.155556	encountered: 7000	 current logloss: 0.190876	 difference : 5.442249
+2015-02-19 17:29:42.374494	encountered: 8000	 current logloss: 0.181040	 difference : 5.153106
+2015-02-19 17:29:59.673522	encountered: 9000	 current logloss: 0.172514	 difference : 4.709213
+2015-02-19 17:30:17.023200	encountered: 10000	 current logloss: 0.165866	 difference : 3.853822
+2015-02-19 17:30:34.390896	encountered: 11000	 current logloss: 0.159501	 difference : 3.837234
+2015-02-19 17:30:51.790661	encountered: 12000	 current logloss: 0.153943	 difference : 3.484871
+2015-02-19 17:31:09.224628	encountered: 13000	 current logloss: 0.149424	 difference : 2.935280
+
+======>   0.0996517499613  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 7] [] False False True
+2015-02-19 17:31:49.279968	encountered: 1000	 current logloss: 0.382411	 difference : 61.758910
+2015-02-19 17:32:05.776077	encountered: 2000	 current logloss: 0.306015	 difference : 19.977540
+2015-02-19 17:32:22.546050	encountered: 3000	 current logloss: 0.261663	 difference : 14.493227
+2015-02-19 17:32:39.452840	encountered: 4000	 current logloss: 0.237301	 difference : 9.310697
+2015-02-19 17:32:56.479342	encountered: 5000	 current logloss: 0.219247	 difference : 7.607929
+2015-02-19 17:33:13.567494	encountered: 6000	 current logloss: 0.202372	 difference : 7.696936
+2015-02-19 17:33:30.736524	encountered: 7000	 current logloss: 0.191087	 difference : 5.576234
+2015-02-19 17:33:47.913246	encountered: 8000	 current logloss: 0.181223	 difference : 5.162038
+2015-02-19 17:34:05.184998	encountered: 9000	 current logloss: 0.172564	 difference : 4.778233
+2015-02-19 17:34:22.508224	encountered: 10000	 current logloss: 0.165996	 difference : 3.806180
+2015-02-19 17:34:39.839092	encountered: 11000	 current logloss: 0.159685	 difference : 3.801866
+2015-02-19 17:34:57.209542	encountered: 12000	 current logloss: 0.154117	 difference : 3.486538
+2015-02-19 17:35:14.629389	encountered: 13000	 current logloss: 0.149596	 difference : 2.933382
+
+======>   0.100259859838  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 8] [] False False True
+2015-02-19 17:35:54.736965	encountered: 1000	 current logloss: 0.378737	 difference : 62.126303
+2015-02-19 17:36:11.284299	encountered: 2000	 current logloss: 0.304652	 difference : 19.560986
+2015-02-19 17:36:28.075798	encountered: 3000	 current logloss: 0.260731	 difference : 14.416716
+2015-02-19 17:36:44.996168	encountered: 4000	 current logloss: 0.236968	 difference : 9.114190
+2015-02-19 17:37:02.034312	encountered: 5000	 current logloss: 0.218702	 difference : 7.708034
+2015-02-19 17:37:19.157631	encountered: 6000	 current logloss: 0.201651	 difference : 7.796523
+2015-02-19 17:37:36.361971	encountered: 7000	 current logloss: 0.190583	 difference : 5.488738
+2015-02-19 17:37:53.568144	encountered: 8000	 current logloss: 0.180805	 difference : 5.130669
+2015-02-19 17:38:10.859446	encountered: 9000	 current logloss: 0.172216	 difference : 4.750240
+2015-02-19 17:38:28.199908	encountered: 10000	 current logloss: 0.165680	 difference : 3.795155
+2015-02-19 17:38:45.562503	encountered: 11000	 current logloss: 0.159371	 difference : 3.808090
+2015-02-19 17:39:02.982457	encountered: 12000	 current logloss: 0.153828	 difference : 3.477982
+2015-02-19 17:39:20.440794	encountered: 13000	 current logloss: 0.149304	 difference : 2.940756
+
+======>   0.101510237397  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 9] [] False False True
+2015-02-19 17:40:00.582977	encountered: 1000	 current logloss: 0.380808	 difference : 61.919244
+2015-02-19 17:40:17.131620	encountered: 2000	 current logloss: 0.305129	 difference : 19.873093
+2015-02-19 17:40:33.933791	encountered: 3000	 current logloss: 0.261312	 difference : 14.360315
+2015-02-19 17:40:50.864534	encountered: 4000	 current logloss: 0.237042	 difference : 9.287508
+2015-02-19 17:41:07.917180	encountered: 5000	 current logloss: 0.218625	 difference : 7.769494
+2015-02-19 17:41:25.043244	encountered: 6000	 current logloss: 0.201691	 difference : 7.745806
+2015-02-19 17:41:42.236281	encountered: 7000	 current logloss: 0.190647	 difference : 5.475766
+2015-02-19 17:41:59.450406	encountered: 8000	 current logloss: 0.180812	 difference : 5.158946
+2015-02-19 17:42:16.747527	encountered: 9000	 current logloss: 0.172397	 difference : 4.653922
+2015-02-19 17:42:34.083285	encountered: 10000	 current logloss: 0.165915	 difference : 3.759972
+2015-02-19 17:42:51.443151	encountered: 11000	 current logloss: 0.159556	 difference : 3.832480
+2015-02-19 17:43:08.852703	encountered: 12000	 current logloss: 0.154052	 difference : 3.449727
+2015-02-19 17:43:26.312663	encountered: 13000	 current logloss: 0.149548	 difference : 2.923455
+
+======>   0.102103844362  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 10] [] False False True
+2015-02-19 17:44:06.521555	encountered: 1000	 current logloss: 0.382483	 difference : 61.751665
+2015-02-19 17:44:23.196939	encountered: 2000	 current logloss: 0.306668	 difference : 19.821818
+2015-02-19 17:44:40.145004	encountered: 3000	 current logloss: 0.261731	 difference : 14.653209
+2015-02-19 17:44:57.221183	encountered: 4000	 current logloss: 0.237596	 difference : 9.221544
+2015-02-19 17:45:14.418648	encountered: 5000	 current logloss: 0.219283	 difference : 7.707709
+2015-02-19 17:45:31.707295	encountered: 6000	 current logloss: 0.202442	 difference : 7.679660
+2015-02-19 17:45:49.058618	encountered: 7000	 current logloss: 0.191454	 difference : 5.427752
+2015-02-19 17:46:06.430911	encountered: 8000	 current logloss: 0.181592	 difference : 5.151161
+2015-02-19 17:46:23.861891	encountered: 9000	 current logloss: 0.173098	 difference : 4.677698
+2015-02-19 17:46:41.343544	encountered: 10000	 current logloss: 0.166500	 difference : 3.811500
+2015-02-19 17:46:58.846636	encountered: 11000	 current logloss: 0.160094	 difference : 3.847846
+2015-02-19 17:47:16.378387	encountered: 12000	 current logloss: 0.154704	 difference : 3.366322
+2015-02-19 17:47:33.950115	encountered: 13000	 current logloss: 0.150131	 difference : 2.956215
+
+======>   0.100747137946  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 11] [] False False True
+2015-02-19 17:48:14.400515	encountered: 1000	 current logloss: 0.381097	 difference : 61.890339
+2015-02-19 17:48:30.967573	encountered: 2000	 current logloss: 0.305610	 difference : 19.807805
+2015-02-19 17:48:47.798129	encountered: 3000	 current logloss: 0.261623	 difference : 14.393220
+2015-02-19 17:49:04.731738	encountered: 4000	 current logloss: 0.237534	 difference : 9.207396
+2015-02-19 17:49:21.818632	encountered: 5000	 current logloss: 0.219419	 difference : 7.626291
+2015-02-19 17:49:38.982483	encountered: 6000	 current logloss: 0.202160	 difference : 7.865798
+2015-02-19 17:49:56.229100	encountered: 7000	 current logloss: 0.191219	 difference : 5.412261
+2015-02-19 17:50:13.484321	encountered: 8000	 current logloss: 0.181314	 difference : 5.179798
+2015-02-19 17:50:30.818793	encountered: 9000	 current logloss: 0.172728	 difference : 4.735395
+2015-02-19 17:50:48.192545	encountered: 10000	 current logloss: 0.166120	 difference : 3.825373
+2015-02-19 17:51:05.585260	encountered: 11000	 current logloss: 0.159633	 difference : 3.905193
+2015-02-19 17:51:23.035990	encountered: 12000	 current logloss: 0.154066	 difference : 3.487101
+2015-02-19 17:51:40.506564	encountered: 13000	 current logloss: 0.149540	 difference : 2.938296
+
+======>   0.100576554768  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 12] [] False False True
+2015-02-19 17:52:20.947129	encountered: 1000	 current logloss: 0.378556	 difference : 62.144426
+2015-02-19 17:52:37.605156	encountered: 2000	 current logloss: 0.303991	 difference : 19.697117
+2015-02-19 17:52:54.524753	encountered: 3000	 current logloss: 0.260497	 difference : 14.307760
+2015-02-19 17:53:11.543774	encountered: 4000	 current logloss: 0.236859	 difference : 9.074106
+2015-02-19 17:53:28.685046	encountered: 5000	 current logloss: 0.218880	 difference : 7.590648
+2015-02-19 17:53:45.894589	encountered: 6000	 current logloss: 0.202160	 difference : 7.639055
+2015-02-19 17:54:03.181745	encountered: 7000	 current logloss: 0.191211	 difference : 5.415659
+2015-02-19 17:54:20.476333	encountered: 8000	 current logloss: 0.181500	 difference : 5.078694
+2015-02-19 17:54:37.844499	encountered: 9000	 current logloss: 0.172984	 difference : 4.692081
+2015-02-19 17:54:55.283488	encountered: 10000	 current logloss: 0.166405	 difference : 3.803281
+2015-02-19 17:55:12.731382	encountered: 11000	 current logloss: 0.159999	 difference : 3.849891
+2015-02-19 17:55:30.210714	encountered: 12000	 current logloss: 0.154488	 difference : 3.444348
+2015-02-19 17:55:47.727893	encountered: 13000	 current logloss: 0.149990	 difference : 2.911445
+
+======>   0.103194312193  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 13] [] False False True
+2015-02-19 17:56:28.174485	encountered: 1000	 current logloss: 0.381237	 difference : 61.876324
+2015-02-19 17:56:44.780852	encountered: 2000	 current logloss: 0.304994	 difference : 19.998681
+2015-02-19 17:57:01.666951	encountered: 3000	 current logloss: 0.260867	 difference : 14.468208
+2015-02-19 17:57:18.658466	encountered: 4000	 current logloss: 0.237132	 difference : 9.098446
+2015-02-19 17:57:35.806687	encountered: 5000	 current logloss: 0.218792	 difference : 7.734050
+2015-02-19 17:57:53.026535	encountered: 6000	 current logloss: 0.201715	 difference : 7.805246
+2015-02-19 17:58:10.339021	encountered: 7000	 current logloss: 0.190854	 difference : 5.384373
+2015-02-19 17:58:27.664055	encountered: 8000	 current logloss: 0.180970	 difference : 5.178599
+2015-02-19 17:58:45.058290	encountered: 9000	 current logloss: 0.172382	 difference : 4.745961
+2015-02-19 17:59:02.503185	encountered: 10000	 current logloss: 0.165820	 difference : 3.806364
+2015-02-19 17:59:19.967433	encountered: 11000	 current logloss: 0.159419	 difference : 3.860559
+2015-02-19 17:59:37.480574	encountered: 12000	 current logloss: 0.153903	 difference : 3.459748
+2015-02-19 17:59:55.022670	encountered: 13000	 current logloss: 0.149385	 difference : 2.935901
+
+======>   0.101010770226  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 14] [] False False True
+2015-02-19 18:00:35.447674	encountered: 1000	 current logloss: 0.380383	 difference : 61.961671
+2015-02-19 18:00:52.043890	encountered: 2000	 current logloss: 0.306180	 difference : 19.507461
+2015-02-19 18:01:08.892930	encountered: 3000	 current logloss: 0.261609	 difference : 14.557211
+2015-02-19 18:01:25.868267	encountered: 4000	 current logloss: 0.237612	 difference : 9.172721
+2015-02-19 18:01:42.960682	encountered: 5000	 current logloss: 0.219180	 difference : 7.757442
+2015-02-19 18:02:00.175367	encountered: 6000	 current logloss: 0.202204	 difference : 7.745153
+2015-02-19 18:02:17.472918	encountered: 7000	 current logloss: 0.191388	 difference : 5.348859
+2015-02-19 18:02:34.762098	encountered: 8000	 current logloss: 0.181333	 difference : 5.253991
+2015-02-19 18:02:52.138704	encountered: 9000	 current logloss: 0.172937	 difference : 4.629989
+2015-02-19 18:03:09.554617	encountered: 10000	 current logloss: 0.166269	 difference : 3.855656
+2015-02-19 18:03:26.969710	encountered: 11000	 current logloss: 0.159817	 difference : 3.880683
+2015-02-19 18:03:44.449116	encountered: 12000	 current logloss: 0.154327	 difference : 3.435058
+2015-02-19 18:04:01.973052	encountered: 13000	 current logloss: 0.149768	 difference : 2.953954
+
+======>   0.101994511881  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 15] [] False False True
+2015-02-19 18:04:42.309572	encountered: 1000	 current logloss: 0.379941	 difference : 62.005936
+2015-02-19 18:04:58.895095	encountered: 2000	 current logloss: 0.305196	 difference : 19.672602
+2015-02-19 18:05:15.721943	encountered: 3000	 current logloss: 0.260867	 difference : 14.524768
+2015-02-19 18:05:32.689405	encountered: 4000	 current logloss: 0.237082	 difference : 9.117671
+2015-02-19 18:05:49.754882	encountered: 5000	 current logloss: 0.219044	 difference : 7.608597
+2015-02-19 18:06:06.869847	encountered: 6000	 current logloss: 0.202354	 difference : 7.619253
+2015-02-19 18:06:24.086173	encountered: 7000	 current logloss: 0.191575	 difference : 5.327101
+2015-02-19 18:06:41.311707	encountered: 8000	 current logloss: 0.181823	 difference : 5.090318
+2015-02-19 18:06:58.598585	encountered: 9000	 current logloss: 0.173459	 difference : 4.600069
+2015-02-19 18:07:15.959118	encountered: 10000	 current logloss: 0.166848	 difference : 3.811224
+2015-02-19 18:07:33.318246	encountered: 11000	 current logloss: 0.160287	 difference : 3.932583
+2015-02-19 18:07:50.725116	encountered: 12000	 current logloss: 0.154768	 difference : 3.442703
+2015-02-19 18:08:08.181098	encountered: 13000	 current logloss: 0.150141	 difference : 2.989785
+
+======>   0.103125172492  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 16] [] False False True
+2015-02-19 18:08:48.356943	encountered: 1000	 current logloss: 0.380957	 difference : 61.904346
+2015-02-19 18:09:05.002398	encountered: 2000	 current logloss: 0.306662	 difference : 19.502129
+2015-02-19 18:09:21.909185	encountered: 3000	 current logloss: 0.261103	 difference : 14.856341
+2015-02-19 18:09:38.925098	encountered: 4000	 current logloss: 0.236661	 difference : 9.361020
+2015-02-19 18:09:56.068480	encountered: 5000	 current logloss: 0.218273	 difference : 7.769992
+2015-02-19 18:10:13.304644	encountered: 6000	 current logloss: 0.201775	 difference : 7.558414
+2015-02-19 18:10:30.615457	encountered: 7000	 current logloss: 0.190882	 difference : 5.398477
+2015-02-19 18:10:47.961705	encountered: 8000	 current logloss: 0.181006	 difference : 5.173981
+2015-02-19 18:11:05.383812	encountered: 9000	 current logloss: 0.172560	 difference : 4.665958
+2015-02-19 18:11:22.847277	encountered: 10000	 current logloss: 0.166025	 difference : 3.786998
+2015-02-19 18:11:40.330748	encountered: 11000	 current logloss: 0.159710	 difference : 3.803922
+2015-02-19 18:11:57.848155	encountered: 12000	 current logloss: 0.154195	 difference : 3.453056
+2015-02-19 18:12:15.425750	encountered: 13000	 current logloss: 0.149613	 difference : 2.971788
+
+======>   0.0999962799599  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17] [] False False True
+2015-02-19 18:12:55.577434	encountered: 1000	 current logloss: 0.384034	 difference : 61.596630
+2015-02-19 18:13:12.165393	encountered: 2000	 current logloss: 0.307668	 difference : 19.885194
+2015-02-19 18:13:29.003045	encountered: 3000	 current logloss: 0.262686	 difference : 14.620301
+2015-02-19 18:13:45.969648	encountered: 4000	 current logloss: 0.238765	 difference : 9.106112
+2015-02-19 18:14:03.067751	encountered: 5000	 current logloss: 0.220462	 difference : 7.665647
+2015-02-19 18:14:20.245951	encountered: 6000	 current logloss: 0.203428	 difference : 7.726592
+2015-02-19 18:14:37.482968	encountered: 7000	 current logloss: 0.192497	 difference : 5.373433
+2015-02-19 18:14:54.744690	encountered: 8000	 current logloss: 0.182519	 difference : 5.183388
+2015-02-19 18:15:12.098502	encountered: 9000	 current logloss: 0.173678	 difference : 4.844014
+2015-02-19 18:15:29.490003	encountered: 10000	 current logloss: 0.167009	 difference : 3.839784
+2015-02-19 18:15:46.899439	encountered: 11000	 current logloss: 0.160599	 difference : 3.838368
+2015-02-19 18:16:04.331717	encountered: 12000	 current logloss: 0.155037	 difference : 3.463246
+2015-02-19 18:16:21.790746	encountered: 13000	 current logloss: 0.150378	 difference : 3.005059
+2015-02-19 18:16:39.289821	encountered: 14000	 current logloss: 0.145563	 difference : 3.201964
+2015-02-19 18:16:56.817062	encountered: 15000	 current logloss: 0.141710	 difference : 2.646709
+
+======>   0.0846269212855  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 19] [] False False True
+2015-02-19 18:17:36.985917	encountered: 1000	 current logloss: 0.381099	 difference : 61.890137
+2015-02-19 18:17:53.589223	encountered: 2000	 current logloss: 0.305127	 difference : 19.934823
+2015-02-19 18:18:10.438180	encountered: 3000	 current logloss: 0.260697	 difference : 14.561132
+2015-02-19 18:18:27.419359	encountered: 4000	 current logloss: 0.236615	 difference : 9.237735
+2015-02-19 18:18:44.516709	encountered: 5000	 current logloss: 0.218725	 difference : 7.560646
+2015-02-19 18:19:01.698728	encountered: 6000	 current logloss: 0.201859	 difference : 7.710974
+2015-02-19 18:19:18.968814	encountered: 7000	 current logloss: 0.190845	 difference : 5.456426
+2015-02-19 18:19:36.253321	encountered: 8000	 current logloss: 0.180924	 difference : 5.198380
+2015-02-19 18:19:53.619996	encountered: 9000	 current logloss: 0.172508	 difference : 4.651506
+2015-02-19 18:20:11.032742	encountered: 10000	 current logloss: 0.165894	 difference : 3.834539
+2015-02-19 18:20:28.450600	encountered: 11000	 current logloss: 0.159489	 difference : 3.860904
+2015-02-19 18:20:45.925541	encountered: 12000	 current logloss: 0.153998	 difference : 3.442899
+2015-02-19 18:21:03.443364	encountered: 13000	 current logloss: 0.149523	 difference : 2.905891
+
+======>   0.102275336963  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 20] [] False False True
+2015-02-19 18:21:43.494992	encountered: 1000	 current logloss: 0.379894	 difference : 62.010647
+2015-02-19 18:22:00.010984	encountered: 2000	 current logloss: 0.306082	 difference : 19.429424
+2015-02-19 18:22:16.767138	encountered: 3000	 current logloss: 0.261835	 difference : 14.456122
+2015-02-19 18:22:33.662223	encountered: 4000	 current logloss: 0.237574	 difference : 9.265851
+2015-02-19 18:22:50.677016	encountered: 5000	 current logloss: 0.219076	 difference : 7.786038
+2015-02-19 18:23:07.781688	encountered: 6000	 current logloss: 0.202242	 difference : 7.684091
+2015-02-19 18:23:24.951591	encountered: 7000	 current logloss: 0.191152	 difference : 5.483484
+2015-02-19 18:23:42.145702	encountered: 8000	 current logloss: 0.181259	 difference : 5.175573
+2015-02-19 18:23:59.424654	encountered: 9000	 current logloss: 0.172634	 difference : 4.758547
+2015-02-19 18:24:16.735090	encountered: 10000	 current logloss: 0.166059	 difference : 3.808109
+2015-02-19 18:24:34.044315	encountered: 11000	 current logloss: 0.159650	 difference : 3.859940
+2015-02-19 18:24:51.417963	encountered: 12000	 current logloss: 0.154124	 difference : 3.461050
+2015-02-19 18:25:08.838922	encountered: 13000	 current logloss: 0.149678	 difference : 2.884889
+
+======>   0.100823447208  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 21] [] False False True
+2015-02-19 18:25:48.917299	encountered: 1000	 current logloss: 0.380629	 difference : 61.937102
+2015-02-19 18:26:05.461496	encountered: 2000	 current logloss: 0.305110	 difference : 19.840585
+2015-02-19 18:26:22.250778	encountered: 3000	 current logloss: 0.261461	 difference : 14.306130
+2015-02-19 18:26:39.168426	encountered: 4000	 current logloss: 0.237256	 difference : 9.257346
+2015-02-19 18:26:56.201779	encountered: 5000	 current logloss: 0.218856	 difference : 7.755406
+2015-02-19 18:27:13.323461	encountered: 6000	 current logloss: 0.201817	 difference : 7.785337
+2015-02-19 18:27:30.512003	encountered: 7000	 current logloss: 0.190754	 difference : 5.481831
+2015-02-19 18:27:47.722585	encountered: 8000	 current logloss: 0.180888	 difference : 5.171980
+2015-02-19 18:28:05.026282	encountered: 9000	 current logloss: 0.172467	 difference : 4.655595
+2015-02-19 18:28:22.385346	encountered: 10000	 current logloss: 0.165917	 difference : 3.797595
+2015-02-19 18:28:39.765362	encountered: 11000	 current logloss: 0.159621	 difference : 3.794626
+2015-02-19 18:28:57.189736	encountered: 12000	 current logloss: 0.154082	 difference : 3.470020
+2015-02-19 18:29:14.653963	encountered: 13000	 current logloss: 0.149506	 difference : 2.970242
+
+======>   0.100793400631  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 22] [] False False True
+2015-02-19 18:29:54.780189	encountered: 1000	 current logloss: 0.667808	 difference : 33.219156
+2015-02-19 18:30:11.385341	encountered: 2000	 current logloss: 0.565669	 difference : 15.294725
+2015-02-19 18:30:28.259263	encountered: 3000	 current logloss: 0.497903	 difference : 11.979789
+2015-02-19 18:30:45.283155	encountered: 4000	 current logloss: 0.455360	 difference : 8.544486
+2015-02-19 18:31:02.434976	encountered: 5000	 current logloss: 0.428158	 difference : 5.973611
+2015-02-19 18:31:19.652954	encountered: 6000	 current logloss: 0.400397	 difference : 6.483937
+2015-02-19 18:31:36.930944	encountered: 7000	 current logloss: 0.383398	 difference : 4.245497
+2015-02-19 18:31:54.217187	encountered: 8000	 current logloss: 0.367033	 difference : 4.268326
+2015-02-19 18:32:11.577837	encountered: 9000	 current logloss: 0.352621	 difference : 3.926727
+2015-02-19 18:32:29.051682	encountered: 10000	 current logloss: 0.340357	 difference : 3.477844
+2015-02-19 18:32:46.548695	encountered: 11000	 current logloss: 0.328889	 difference : 3.369526
+2015-02-19 18:33:04.068311	encountered: 12000	 current logloss: 0.318562	 difference : 3.139945
+2015-02-19 18:33:21.603747	encountered: 13000	 current logloss: 0.310109	 difference : 2.653346
+
+======>   0.186387652083  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 23] [] False False True
+2015-02-19 18:34:01.699928	encountered: 1000	 current logloss: 0.642171	 difference : 35.782923
+2015-02-19 18:34:18.289110	encountered: 2000	 current logloss: 0.538818	 difference : 16.094317
+2015-02-19 18:34:35.110836	encountered: 3000	 current logloss: 0.473018	 difference : 12.211967
+2015-02-19 18:34:52.110770	encountered: 4000	 current logloss: 0.430938	 difference : 8.896080
+2015-02-19 18:35:09.290545	encountered: 5000	 current logloss: 0.401601	 difference : 6.807686
+2015-02-19 18:35:26.561733	encountered: 6000	 current logloss: 0.374754	 difference : 6.684997
+2015-02-19 18:35:43.891549	encountered: 7000	 current logloss: 0.356009	 difference : 5.001781
+2015-02-19 18:36:01.225646	encountered: 8000	 current logloss: 0.339492	 difference : 4.639445
+2015-02-19 18:36:18.621807	encountered: 9000	 current logloss: 0.325258	 difference : 4.192722
+2015-02-19 18:36:36.084898	encountered: 10000	 current logloss: 0.313055	 difference : 3.751920
+2015-02-19 18:36:53.586351	encountered: 11000	 current logloss: 0.301944	 difference : 3.549282
+2015-02-19 18:37:11.125559	encountered: 12000	 current logloss: 0.292238	 difference : 3.214310
+2015-02-19 18:37:28.699114	encountered: 13000	 current logloss: 0.283828	 difference : 2.877801
+
+======>   0.173263423294  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 24] [] False False True
+2015-02-19 18:38:08.901283	encountered: 1000	 current logloss: 0.382655	 difference : 61.734530
+2015-02-19 18:38:25.562651	encountered: 2000	 current logloss: 0.306651	 difference : 19.862280
+2015-02-19 18:38:42.478487	encountered: 3000	 current logloss: 0.261996	 difference : 14.562098
+2015-02-19 18:38:59.526808	encountered: 4000	 current logloss: 0.237994	 difference : 9.161199
+2015-02-19 18:39:16.706763	encountered: 5000	 current logloss: 0.219352	 difference : 7.832927
+2015-02-19 18:39:33.966330	encountered: 6000	 current logloss: 0.202443	 difference : 7.708500
+2015-02-19 18:39:51.295261	encountered: 7000	 current logloss: 0.191463	 difference : 5.424145
+2015-02-19 18:40:08.634379	encountered: 8000	 current logloss: 0.181608	 difference : 5.146722
+2015-02-19 18:40:26.026643	encountered: 9000	 current logloss: 0.173026	 difference : 4.725761
+2015-02-19 18:40:43.472763	encountered: 10000	 current logloss: 0.166389	 difference : 3.836030
+2015-02-19 18:41:00.944371	encountered: 11000	 current logloss: 0.159983	 difference : 3.850099
+2015-02-19 18:41:18.455568	encountered: 12000	 current logloss: 0.154574	 difference : 3.380672
+2015-02-19 18:41:36.018219	encountered: 13000	 current logloss: 0.150076	 difference : 2.910018
+
+======>   0.100720939457  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 25] [] False False True
+2015-02-19 18:42:16.443556	encountered: 1000	 current logloss: 0.381405	 difference : 61.859525
+2015-02-19 18:42:32.996964	encountered: 2000	 current logloss: 0.304654	 difference : 20.123233
+2015-02-19 18:42:49.813721	encountered: 3000	 current logloss: 0.261007	 difference : 14.326783
+2015-02-19 18:43:06.745004	encountered: 4000	 current logloss: 0.236922	 difference : 9.227771
+2015-02-19 18:43:23.813440	encountered: 5000	 current logloss: 0.218696	 difference : 7.692462
+2015-02-19 18:43:40.954034	encountered: 6000	 current logloss: 0.201698	 difference : 7.772848
+2015-02-19 18:43:58.175820	encountered: 7000	 current logloss: 0.190902	 difference : 5.352251
+2015-02-19 18:44:15.417019	encountered: 8000	 current logloss: 0.181142	 difference : 5.112755
+2015-02-19 18:44:32.741175	encountered: 9000	 current logloss: 0.172687	 difference : 4.667413
+2015-02-19 18:44:50.113197	encountered: 10000	 current logloss: 0.166089	 difference : 3.821150
+2015-02-19 18:45:07.509035	encountered: 11000	 current logloss: 0.159684	 difference : 3.856256
+2015-02-19 18:45:24.951628	encountered: 12000	 current logloss: 0.154072	 difference : 3.514089
+2015-02-19 18:45:42.412125	encountered: 13000	 current logloss: 0.149606	 difference : 2.899022
+
+======>   0.100933698146  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 26] [] False False True
+2015-02-19 18:46:22.811933	encountered: 1000	 current logloss: 0.382665	 difference : 61.733480
+2015-02-19 18:46:39.396633	encountered: 2000	 current logloss: 0.306654	 difference : 19.863615
+2015-02-19 18:46:56.228705	encountered: 3000	 current logloss: 0.261968	 difference : 14.572136
+2015-02-19 18:47:13.199097	encountered: 4000	 current logloss: 0.237928	 difference : 9.176530
+2015-02-19 18:47:30.288818	encountered: 5000	 current logloss: 0.219382	 difference : 7.794850
+2015-02-19 18:47:47.464613	encountered: 6000	 current logloss: 0.202449	 difference : 7.718650
+2015-02-19 18:48:04.707447	encountered: 7000	 current logloss: 0.191433	 difference : 5.441214
+2015-02-19 18:48:21.959667	encountered: 8000	 current logloss: 0.181579	 difference : 5.147666
+2015-02-19 18:48:39.274558	encountered: 9000	 current logloss: 0.173005	 difference : 4.722061
+2015-02-19 18:48:56.643167	encountered: 10000	 current logloss: 0.166369	 difference : 3.835537
+2015-02-19 18:49:14.040196	encountered: 11000	 current logloss: 0.159965	 difference : 3.849521
+2015-02-19 18:49:31.456308	encountered: 12000	 current logloss: 0.154561	 difference : 3.377717
+2015-02-19 18:49:48.914020	encountered: 13000	 current logloss: 0.150054	 difference : 2.916063
+
+======>   0.100514065291  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 27] [] False False True
+2015-02-19 18:50:29.292717	encountered: 1000	 current logloss: 0.383413	 difference : 61.658652
+2015-02-19 18:50:45.809387	encountered: 2000	 current logloss: 0.307572	 difference : 19.780508
+2015-02-19 18:51:02.595810	encountered: 3000	 current logloss: 0.262384	 difference : 14.692100
+2015-02-19 18:51:19.525565	encountered: 4000	 current logloss: 0.237835	 difference : 9.356002
+2015-02-19 18:51:36.570512	encountered: 5000	 current logloss: 0.219458	 difference : 7.726627
+2015-02-19 18:51:53.696942	encountered: 6000	 current logloss: 0.202539	 difference : 7.709470
+2015-02-19 18:52:10.917799	encountered: 7000	 current logloss: 0.191561	 difference : 5.420450
+2015-02-19 18:52:28.150222	encountered: 8000	 current logloss: 0.181800	 difference : 5.095323
+2015-02-19 18:52:45.435385	encountered: 9000	 current logloss: 0.173182	 difference : 4.740330
+2015-02-19 18:53:02.781461	encountered: 10000	 current logloss: 0.166474	 difference : 3.873244
+2015-02-19 18:53:20.151064	encountered: 11000	 current logloss: 0.159975	 difference : 3.904291
+2015-02-19 18:53:37.534729	encountered: 12000	 current logloss: 0.154599	 difference : 3.360481
+2015-02-19 18:53:54.960027	encountered: 13000	 current logloss: 0.150119	 difference : 2.897408
+
+======>   0.101288223559  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 28] [] False False True
+2015-02-19 18:54:35.094570	encountered: 1000	 current logloss: 0.380730	 difference : 61.926967
+2015-02-19 18:54:51.660834	encountered: 2000	 current logloss: 0.306444	 difference : 19.511431
+2015-02-19 18:55:08.474474	encountered: 3000	 current logloss: 0.261388	 difference : 14.703048
+2015-02-19 18:55:25.394071	encountered: 4000	 current logloss: 0.237165	 difference : 9.266890
+2015-02-19 18:55:42.456259	encountered: 5000	 current logloss: 0.218770	 difference : 7.756151
+2015-02-19 18:55:59.612264	encountered: 6000	 current logloss: 0.201942	 difference : 7.692345
+2015-02-19 18:56:16.831276	encountered: 7000	 current logloss: 0.190952	 difference : 5.442187
+2015-02-19 18:56:34.071235	encountered: 8000	 current logloss: 0.181112	 difference : 5.152838
+2015-02-19 18:56:51.382776	encountered: 9000	 current logloss: 0.172682	 difference : 4.654685
+2015-02-19 18:57:08.742209	encountered: 10000	 current logloss: 0.166040	 difference : 3.846187
+2015-02-19 18:57:26.129574	encountered: 11000	 current logloss: 0.159622	 difference : 3.865380
+2015-02-19 18:57:43.566031	encountered: 12000	 current logloss: 0.154129	 difference : 3.441444
+2015-02-19 18:58:01.047434	encountered: 13000	 current logloss: 0.149633	 difference : 2.917332
+
+======>   0.0994423310175  <======	 sizeIdx :  0
+0.100387292331 ==> 0.0846269212855
+15.6995678231
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**************************************
+training started for  [18, 17, 0] [] False False True
+2015-02-19 18:58:41.234165	encountered: 1000	 current logloss: 0.384034	 difference : 61.596630
+2015-02-19 18:58:57.864620	encountered: 2000	 current logloss: 0.307668	 difference : 19.885194
+2015-02-19 18:59:14.749457	encountered: 3000	 current logloss: 0.262686	 difference : 14.620301
+2015-02-19 18:59:31.764286	encountered: 4000	 current logloss: 0.238765	 difference : 9.106112
+2015-02-19 18:59:48.908764	encountered: 5000	 current logloss: 0.220462	 difference : 7.665647
+2015-02-19 19:00:06.140870	encountered: 6000	 current logloss: 0.203428	 difference : 7.726592
+2015-02-19 19:00:23.430126	encountered: 7000	 current logloss: 0.192497	 difference : 5.373433
+2015-02-19 19:00:40.745377	encountered: 8000	 current logloss: 0.182519	 difference : 5.183388
+2015-02-19 19:00:58.145662	encountered: 9000	 current logloss: 0.173678	 difference : 4.844014
+2015-02-19 19:01:15.588516	encountered: 10000	 current logloss: 0.167009	 difference : 3.839784
+2015-02-19 19:01:33.046846	encountered: 11000	 current logloss: 0.160599	 difference : 3.838368
+2015-02-19 19:01:50.534419	encountered: 12000	 current logloss: 0.155037	 difference : 3.463246
+2015-02-19 19:02:08.051511	encountered: 13000	 current logloss: 0.150378	 difference : 3.005059
+2015-02-19 19:02:25.601861	encountered: 14000	 current logloss: 0.145563	 difference : 3.201964
+2015-02-19 19:02:43.182714	encountered: 15000	 current logloss: 0.141710	 difference : 2.646709
+
+======>   0.0846269212855  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 1] [] False False True
+2015-02-19 19:03:23.325224	encountered: 1000	 current logloss: 0.382144	 difference : 61.785606
+2015-02-19 19:03:39.923853	encountered: 2000	 current logloss: 0.308068	 difference : 19.384377
+2015-02-19 19:03:56.773248	encountered: 3000	 current logloss: 0.261787	 difference : 15.022852
+2015-02-19 19:04:13.757090	encountered: 4000	 current logloss: 0.237958	 difference : 9.102322
+2015-02-19 19:04:30.843910	encountered: 5000	 current logloss: 0.219926	 difference : 7.578012
+2015-02-19 19:04:48.008810	encountered: 6000	 current logloss: 0.202950	 difference : 7.718886
+2015-02-19 19:05:05.264363	encountered: 7000	 current logloss: 0.191970	 difference : 5.410147
+2015-02-19 19:05:22.535158	encountered: 8000	 current logloss: 0.182124	 difference : 5.128771
+2015-02-19 19:05:39.867544	encountered: 9000	 current logloss: 0.173466	 difference : 4.754420
+2015-02-19 19:05:57.279431	encountered: 10000	 current logloss: 0.167000	 difference : 3.727414
+2015-02-19 19:06:14.706079	encountered: 11000	 current logloss: 0.160537	 difference : 3.870069
+2015-02-19 19:06:32.146012	encountered: 12000	 current logloss: 0.154977	 difference : 3.462967
+2015-02-19 19:06:49.625373	encountered: 13000	 current logloss: 0.150401	 difference : 2.952918
+
+======>   0.100996651397  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 2] [] False False True
+2015-02-19 19:07:30.040757	encountered: 1000	 current logloss: 0.382432	 difference : 61.756791
+2015-02-19 19:07:46.661810	encountered: 2000	 current logloss: 0.307850	 difference : 19.502033
+2015-02-19 19:08:03.524926	encountered: 3000	 current logloss: 0.261874	 difference : 14.934500
+2015-02-19 19:08:20.511717	encountered: 4000	 current logloss: 0.237998	 difference : 9.117491
+2015-02-19 19:08:37.601522	encountered: 5000	 current logloss: 0.219696	 difference : 7.689838
+2015-02-19 19:08:54.768426	encountered: 6000	 current logloss: 0.202641	 difference : 7.763292
+2015-02-19 19:09:12.010209	encountered: 7000	 current logloss: 0.191706	 difference : 5.395779
+2015-02-19 19:09:29.272793	encountered: 8000	 current logloss: 0.181922	 difference : 5.103650
+2015-02-19 19:09:46.602487	encountered: 9000	 current logloss: 0.173263	 difference : 4.759927
+2015-02-19 19:10:04.005335	encountered: 10000	 current logloss: 0.166700	 difference : 3.787785
+2015-02-19 19:10:21.431436	encountered: 11000	 current logloss: 0.160249	 difference : 3.870248
+2015-02-19 19:10:38.875207	encountered: 12000	 current logloss: 0.154788	 difference : 3.407448
+2015-02-19 19:10:56.357195	encountered: 13000	 current logloss: 0.150246	 difference : 2.934152
+
+======>   0.100036250428  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 3] [] False False True
+2015-02-19 19:11:36.837644	encountered: 1000	 current logloss: 0.384034	 difference : 61.596630
+2015-02-19 19:11:53.495232	encountered: 2000	 current logloss: 0.307668	 difference : 19.885194
+2015-02-19 19:12:10.404807	encountered: 3000	 current logloss: 0.262686	 difference : 14.620301
+2015-02-19 19:12:27.447472	encountered: 4000	 current logloss: 0.238765	 difference : 9.106112
+2015-02-19 19:12:44.608374	encountered: 5000	 current logloss: 0.220462	 difference : 7.665647
+2015-02-19 19:13:01.855469	encountered: 6000	 current logloss: 0.203428	 difference : 7.726592
+2015-02-19 19:13:19.158362	encountered: 7000	 current logloss: 0.192497	 difference : 5.373433
+2015-02-19 19:13:36.487463	encountered: 8000	 current logloss: 0.182519	 difference : 5.183388
+2015-02-19 19:13:53.895903	encountered: 9000	 current logloss: 0.173678	 difference : 4.844014
+2015-02-19 19:14:11.361270	encountered: 10000	 current logloss: 0.167009	 difference : 3.839784
+2015-02-19 19:14:28.836679	encountered: 11000	 current logloss: 0.160599	 difference : 3.838368
+2015-02-19 19:14:46.335589	encountered: 12000	 current logloss: 0.155037	 difference : 3.463246
+2015-02-19 19:15:03.868809	encountered: 13000	 current logloss: 0.150378	 difference : 3.005059
+2015-02-19 19:15:21.436379	encountered: 14000	 current logloss: 0.145563	 difference : 3.201964
+2015-02-19 19:15:39.029563	encountered: 15000	 current logloss: 0.141710	 difference : 2.646709
+
+======>   0.0846269212855  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 4] [] False False True
+2015-02-19 19:16:19.853539	encountered: 1000	 current logloss: 0.384034	 difference : 61.596630
+2015-02-19 19:16:36.544011	encountered: 2000	 current logloss: 0.307668	 difference : 19.885194
+2015-02-19 19:16:53.482988	encountered: 3000	 current logloss: 0.262686	 difference : 14.620301
+2015-02-19 19:17:10.556776	encountered: 4000	 current logloss: 0.238765	 difference : 9.106112
+2015-02-19 19:17:27.752126	encountered: 5000	 current logloss: 0.220462	 difference : 7.665647
+2015-02-19 19:17:45.035561	encountered: 6000	 current logloss: 0.203428	 difference : 7.726592
+2015-02-19 19:18:02.371001	encountered: 7000	 current logloss: 0.192497	 difference : 5.373433
+2015-02-19 19:18:19.736161	encountered: 8000	 current logloss: 0.182519	 difference : 5.183388
+2015-02-19 19:18:37.178170	encountered: 9000	 current logloss: 0.173678	 difference : 4.844014
+2015-02-19 19:18:54.671708	encountered: 10000	 current logloss: 0.167009	 difference : 3.839784
+2015-02-19 19:19:12.182491	encountered: 11000	 current logloss: 0.160599	 difference : 3.838368
+2015-02-19 19:19:29.713547	encountered: 12000	 current logloss: 0.155037	 difference : 3.463246
+2015-02-19 19:19:47.276552	encountered: 13000	 current logloss: 0.150378	 difference : 3.005059
+2015-02-19 19:20:04.869803	encountered: 14000	 current logloss: 0.145563	 difference : 3.201964
+2015-02-19 19:20:22.497878	encountered: 15000	 current logloss: 0.141710	 difference : 2.646709
+
+======>   0.0846269212855  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 5] [] False False True
+2015-02-19 19:21:03.219266	encountered: 1000	 current logloss: 0.385159	 difference : 61.484100
+2015-02-19 19:21:19.821618	encountered: 2000	 current logloss: 0.308317	 difference : 19.950661
+2015-02-19 19:21:36.657129	encountered: 3000	 current logloss: 0.262937	 difference : 14.718650
+2015-02-19 19:21:53.624637	encountered: 4000	 current logloss: 0.238728	 difference : 9.207269
+2015-02-19 19:22:10.706576	encountered: 5000	 current logloss: 0.220474	 difference : 7.646467
+2015-02-19 19:22:27.858961	encountered: 6000	 current logloss: 0.203528	 difference : 7.686101
+2015-02-19 19:22:45.093573	encountered: 7000	 current logloss: 0.192740	 difference : 5.300513
+2015-02-19 19:23:02.360336	encountered: 8000	 current logloss: 0.182755	 difference : 5.180176
+2015-02-19 19:23:19.700490	encountered: 9000	 current logloss: 0.173958	 difference : 4.813999
+2015-02-19 19:23:37.110501	encountered: 10000	 current logloss: 0.167299	 difference : 3.827430
+2015-02-19 19:23:54.541062	encountered: 11000	 current logloss: 0.160735	 difference : 3.923836
+2015-02-19 19:24:11.991198	encountered: 12000	 current logloss: 0.155183	 difference : 3.454111
+2015-02-19 19:24:29.488233	encountered: 13000	 current logloss: 0.150549	 difference : 2.986086
+
+======>   0.103828363669  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 6] [] False False True
+2015-02-19 19:25:09.713009	encountered: 1000	 current logloss: 0.384205	 difference : 61.579538
+2015-02-19 19:25:26.280571	encountered: 2000	 current logloss: 0.307932	 difference : 19.852007
+2015-02-19 19:25:43.108370	encountered: 3000	 current logloss: 0.262647	 difference : 14.706338
+2015-02-19 19:26:00.069777	encountered: 4000	 current logloss: 0.238542	 difference : 9.177781
+2015-02-19 19:26:17.142368	encountered: 5000	 current logloss: 0.220367	 difference : 7.618970
+2015-02-19 19:26:34.302800	encountered: 6000	 current logloss: 0.203387	 difference : 7.705274
+2015-02-19 19:26:51.524721	encountered: 7000	 current logloss: 0.192446	 difference : 5.379724
+2015-02-19 19:27:08.761148	encountered: 8000	 current logloss: 0.182545	 difference : 5.144777
+2015-02-19 19:27:26.067939	encountered: 9000	 current logloss: 0.173727	 difference : 4.830615
+2015-02-19 19:27:43.430455	encountered: 10000	 current logloss: 0.167055	 difference : 3.840149
+2015-02-19 19:28:00.808815	encountered: 11000	 current logloss: 0.160689	 difference : 3.810655
+2015-02-19 19:28:18.219064	encountered: 12000	 current logloss: 0.155100	 difference : 3.478413
+2015-02-19 19:28:35.663877	encountered: 13000	 current logloss: 0.150431	 difference : 3.010225
+2015-02-19 19:28:53.137389	encountered: 14000	 current logloss: 0.145594	 difference : 3.215585
+2015-02-19 19:29:10.637919	encountered: 15000	 current logloss: 0.141754	 difference : 2.637328
+
+======>   0.0845749538101  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 7] [] False False True
+2015-02-19 19:29:50.821888	encountered: 1000	 current logloss: 0.383089	 difference : 61.691070
+2015-02-19 19:30:07.443950	encountered: 2000	 current logloss: 0.307647	 difference : 19.693221
+2015-02-19 19:30:24.310628	encountered: 3000	 current logloss: 0.262783	 difference : 14.582770
+2015-02-19 19:30:41.313780	encountered: 4000	 current logloss: 0.238812	 difference : 9.122246
+2015-02-19 19:30:58.445085	encountered: 5000	 current logloss: 0.220284	 difference : 7.758054
+2015-02-19 19:31:15.667329	encountered: 6000	 current logloss: 0.203333	 difference : 7.695020
+2015-02-19 19:31:32.960753	encountered: 7000	 current logloss: 0.192380	 difference : 5.386923
+2015-02-19 19:31:50.263037	encountered: 8000	 current logloss: 0.182370	 difference : 5.203041
+2015-02-19 19:32:07.637753	encountered: 9000	 current logloss: 0.173573	 difference : 4.824095
+2015-02-19 19:32:25.067993	encountered: 10000	 current logloss: 0.166902	 difference : 3.843324
+2015-02-19 19:32:42.518246	encountered: 11000	 current logloss: 0.160499	 difference : 3.836345
+2015-02-19 19:32:59.993627	encountered: 12000	 current logloss: 0.154883	 difference : 3.498947
+2015-02-19 19:33:17.495619	encountered: 13000	 current logloss: 0.150393	 difference : 2.898846
+
+======>   0.102654521436  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 8] [] False False True
+2015-02-19 19:33:57.676342	encountered: 1000	 current logloss: 0.384709	 difference : 61.529140
+2015-02-19 19:34:14.343685	encountered: 2000	 current logloss: 0.306803	 difference : 20.250567
+2015-02-19 19:34:31.243486	encountered: 3000	 current logloss: 0.262188	 difference : 14.541806
+2015-02-19 19:34:48.273252	encountered: 4000	 current logloss: 0.238411	 difference : 9.068850
+2015-02-19 19:35:05.430654	encountered: 5000	 current logloss: 0.219952	 difference : 7.742340
+2015-02-19 19:35:22.691819	encountered: 6000	 current logloss: 0.202870	 difference : 7.766522
+2015-02-19 19:35:40.025057	encountered: 7000	 current logloss: 0.192077	 difference : 5.320060
+2015-02-19 19:35:57.367689	encountered: 8000	 current logloss: 0.182116	 difference : 5.185760
+2015-02-19 19:36:14.772952	encountered: 9000	 current logloss: 0.173442	 difference : 4.763087
+2015-02-19 19:36:32.226768	encountered: 10000	 current logloss: 0.166887	 difference : 3.779031
+2015-02-19 19:36:49.685884	encountered: 11000	 current logloss: 0.160457	 difference : 3.853231
+2015-02-19 19:37:07.171180	encountered: 12000	 current logloss: 0.154935	 difference : 3.441101
+2015-02-19 19:37:24.708012	encountered: 13000	 current logloss: 0.150361	 difference : 2.952165
+
+======>   0.102304031118  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 9] [] False False True
+2015-02-19 19:38:04.877036	encountered: 1000	 current logloss: 0.384184	 difference : 61.581636
+2015-02-19 19:38:21.522328	encountered: 2000	 current logloss: 0.308312	 difference : 19.748839
+2015-02-19 19:38:38.416245	encountered: 3000	 current logloss: 0.262301	 difference : 14.923623
+2015-02-19 19:38:55.430236	encountered: 4000	 current logloss: 0.238676	 difference : 9.006736
+2015-02-19 19:39:12.551723	encountered: 5000	 current logloss: 0.219844	 difference : 7.890030
+2015-02-19 19:39:29.761974	encountered: 6000	 current logloss: 0.203031	 difference : 7.647685
+2015-02-19 19:39:47.058411	encountered: 7000	 current logloss: 0.192159	 difference : 5.354749
+2015-02-19 19:40:04.367807	encountered: 8000	 current logloss: 0.182302	 difference : 5.129633
+2015-02-19 19:40:21.744400	encountered: 9000	 current logloss: 0.173535	 difference : 4.809050
+2015-02-19 19:40:39.167891	encountered: 10000	 current logloss: 0.166972	 difference : 3.782197
+2015-02-19 19:40:56.621871	encountered: 11000	 current logloss: 0.160560	 difference : 3.840261
+2015-02-19 19:41:14.105991	encountered: 12000	 current logloss: 0.154970	 difference : 3.481697
+2015-02-19 19:41:31.635488	encountered: 13000	 current logloss: 0.150390	 difference : 2.955388
+
+======>   0.100605048748  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 10] [] False False True
+2015-02-19 19:42:11.789540	encountered: 1000	 current logloss: 0.384461	 difference : 61.553900
+2015-02-19 19:42:28.439047	encountered: 2000	 current logloss: 0.307672	 difference : 19.973069
+2015-02-19 19:42:45.312205	encountered: 3000	 current logloss: 0.261752	 difference : 14.925119
+2015-02-19 19:43:02.334041	encountered: 4000	 current logloss: 0.238238	 difference : 8.983313
+2015-02-19 19:43:19.477559	encountered: 5000	 current logloss: 0.220051	 difference : 7.633789
+2015-02-19 19:43:36.692102	encountered: 6000	 current logloss: 0.203055	 difference : 7.723728
+2015-02-19 19:43:53.973660	encountered: 7000	 current logloss: 0.191721	 difference : 5.581945
+2015-02-19 19:44:11.273311	encountered: 8000	 current logloss: 0.181904	 difference : 5.120219
+2015-02-19 19:44:28.641184	encountered: 9000	 current logloss: 0.173152	 difference : 4.811189
+2015-02-19 19:44:46.052157	encountered: 10000	 current logloss: 0.166574	 difference : 3.799374
+2015-02-19 19:45:03.483412	encountered: 11000	 current logloss: 0.160194	 difference : 3.830180
+2015-02-19 19:45:20.934555	encountered: 12000	 current logloss: 0.154692	 difference : 3.434364
+2015-02-19 19:45:38.430522	encountered: 13000	 current logloss: 0.150219	 difference : 2.891544
+
+======>   0.104477867041  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 11] [] False False True
+2015-02-19 19:46:18.957016	encountered: 1000	 current logloss: 0.384339	 difference : 61.566056
+2015-02-19 19:46:35.640491	encountered: 2000	 current logloss: 0.308393	 difference : 19.760364
+2015-02-19 19:46:52.563705	encountered: 3000	 current logloss: 0.262566	 difference : 14.859932
+2015-02-19 19:47:09.628706	encountered: 4000	 current logloss: 0.238720	 difference : 9.081908
+2015-02-19 19:47:26.801018	encountered: 5000	 current logloss: 0.220324	 difference : 7.705971
+2015-02-19 19:47:44.072598	encountered: 6000	 current logloss: 0.203307	 difference : 7.723512
+2015-02-19 19:48:01.431534	encountered: 7000	 current logloss: 0.192275	 difference : 5.426471
+2015-02-19 19:48:18.798479	encountered: 8000	 current logloss: 0.182305	 difference : 5.185387
+2015-02-19 19:48:36.213000	encountered: 9000	 current logloss: 0.173687	 difference : 4.727078
+2015-02-19 19:48:53.686335	encountered: 10000	 current logloss: 0.167063	 difference : 3.813584
+2015-02-19 19:49:11.187282	encountered: 11000	 current logloss: 0.160589	 difference : 3.875392
+2015-02-19 19:49:28.722516	encountered: 12000	 current logloss: 0.155044	 difference : 3.453036
+2015-02-19 19:49:46.295235	encountered: 13000	 current logloss: 0.150417	 difference : 2.984442
+
+======>   0.0999359262615  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 12] [] False False True
+2015-02-19 19:50:26.723208	encountered: 1000	 current logloss: 0.383609	 difference : 61.639122
+2015-02-19 19:50:43.387323	encountered: 2000	 current logloss: 0.307278	 difference : 19.898116
+2015-02-19 19:51:00.308354	encountered: 3000	 current logloss: 0.261684	 difference : 14.837862
+2015-02-19 19:51:17.356177	encountered: 4000	 current logloss: 0.237811	 difference : 9.123080
+2015-02-19 19:51:34.513394	encountered: 5000	 current logloss: 0.219958	 difference : 7.506942
+2015-02-19 19:51:51.759102	encountered: 6000	 current logloss: 0.203158	 difference : 7.638008
+2015-02-19 19:52:09.070090	encountered: 7000	 current logloss: 0.192044	 difference : 5.470418
+2015-02-19 19:52:26.399997	encountered: 8000	 current logloss: 0.182435	 difference : 5.003831
+2015-02-19 19:52:43.798345	encountered: 9000	 current logloss: 0.173713	 difference : 4.781021
+2015-02-19 19:53:01.256050	encountered: 10000	 current logloss: 0.167208	 difference : 3.744405
+2015-02-19 19:53:18.728547	encountered: 11000	 current logloss: 0.160787	 difference : 3.840390
+2015-02-19 19:53:36.218466	encountered: 12000	 current logloss: 0.155236	 difference : 3.452078
+2015-02-19 19:53:53.763920	encountered: 13000	 current logloss: 0.150683	 difference : 2.932916
+
+======>   0.101164232303  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 13] [] False False True
+2015-02-19 19:54:34.247934	encountered: 1000	 current logloss: 0.383841	 difference : 61.615864
+2015-02-19 19:54:50.920514	encountered: 2000	 current logloss: 0.308419	 difference : 19.649243
+2015-02-19 19:55:07.830103	encountered: 3000	 current logloss: 0.262917	 difference : 14.753551
+2015-02-19 19:55:24.874285	encountered: 4000	 current logloss: 0.239057	 difference : 9.075123
+2015-02-19 19:55:42.033465	encountered: 5000	 current logloss: 0.220562	 difference : 7.736393
+2015-02-19 19:55:59.288997	encountered: 6000	 current logloss: 0.203479	 difference : 7.745422
+2015-02-19 19:56:16.623924	encountered: 7000	 current logloss: 0.192472	 difference : 5.409320
+2015-02-19 19:56:33.978929	encountered: 8000	 current logloss: 0.182461	 difference : 5.201488
+2015-02-19 19:56:51.365650	encountered: 9000	 current logloss: 0.173776	 difference : 4.759825
+2015-02-19 19:57:08.826608	encountered: 10000	 current logloss: 0.167176	 difference : 3.797880
+2015-02-19 19:57:26.317338	encountered: 11000	 current logloss: 0.160699	 difference : 3.874557
+2015-02-19 19:57:43.826533	encountered: 12000	 current logloss: 0.155121	 difference : 3.471092
+2015-02-19 19:58:01.381186	encountered: 13000	 current logloss: 0.150538	 difference : 2.954223
+
+======>   0.0999279185889  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 14] [] False False True
+2015-02-19 19:58:41.909069	encountered: 1000	 current logloss: 0.385193	 difference : 61.480676
+2015-02-19 19:58:58.643103	encountered: 2000	 current logloss: 0.307247	 difference : 20.235607
+2015-02-19 19:59:15.600796	encountered: 3000	 current logloss: 0.260517	 difference : 15.209184
+2015-02-19 19:59:32.669711	encountered: 4000	 current logloss: 0.236860	 difference : 9.080709
+2015-02-19 19:59:49.871761	encountered: 5000	 current logloss: 0.218818	 difference : 7.617406
+2015-02-19 20:00:07.168030	encountered: 6000	 current logloss: 0.202156	 difference : 7.614616
+2015-02-19 20:00:24.531571	encountered: 7000	 current logloss: 0.191438	 difference : 5.301587
+2015-02-19 20:00:41.900871	encountered: 8000	 current logloss: 0.181541	 difference : 5.169997
+2015-02-19 20:00:59.357446	encountered: 9000	 current logloss: 0.172931	 difference : 4.742594
+2015-02-19 20:01:16.881248	encountered: 10000	 current logloss: 0.166388	 difference : 3.783399
+2015-02-19 20:01:34.428275	encountered: 11000	 current logloss: 0.160030	 difference : 3.821592
+2015-02-19 20:01:51.994017	encountered: 12000	 current logloss: 0.154540	 difference : 3.430464
+2015-02-19 20:02:09.618809	encountered: 13000	 current logloss: 0.150061	 difference : 2.898325
+
+======>   0.101868150925  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 15] [] False False True
+2015-02-19 20:02:49.956870	encountered: 1000	 current logloss: 0.377983	 difference : 62.201659
+2015-02-19 20:03:06.498368	encountered: 2000	 current logloss: 0.304423	 difference : 19.461161
+2015-02-19 20:03:23.280888	encountered: 3000	 current logloss: 0.259926	 difference : 14.617052
+2015-02-19 20:03:40.188950	encountered: 4000	 current logloss: 0.236464	 difference : 9.026278
+2015-02-19 20:03:57.246459	encountered: 5000	 current logloss: 0.218706	 difference : 7.509699
+2015-02-19 20:04:14.397879	encountered: 6000	 current logloss: 0.201813	 difference : 7.724184
+2015-02-19 20:04:31.613172	encountered: 7000	 current logloss: 0.191157	 difference : 5.279932
+2015-02-19 20:04:48.849823	encountered: 8000	 current logloss: 0.181539	 difference : 5.031937
+2015-02-19 20:05:06.140431	encountered: 9000	 current logloss: 0.173096	 difference : 4.650527
+2015-02-19 20:05:23.507935	encountered: 10000	 current logloss: 0.166622	 difference : 3.739937
+2015-02-19 20:05:40.869288	encountered: 11000	 current logloss: 0.160230	 difference : 3.836171
+2015-02-19 20:05:58.268385	encountered: 12000	 current logloss: 0.154828	 difference : 3.371588
+2015-02-19 20:06:15.696807	encountered: 13000	 current logloss: 0.150332	 difference : 2.904136
+
+======>   0.107262729791  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 16] [] False False True
+2015-02-19 20:06:55.884110	encountered: 1000	 current logloss: 0.384259	 difference : 61.574133
+2015-02-19 20:07:12.531774	encountered: 2000	 current logloss: 0.307354	 difference : 20.013882
+2015-02-19 20:07:29.460810	encountered: 3000	 current logloss: 0.262071	 difference : 14.732950
+2015-02-19 20:07:46.490825	encountered: 4000	 current logloss: 0.238341	 difference : 9.054754
+2015-02-19 20:08:03.630857	encountered: 5000	 current logloss: 0.219869	 difference : 7.750491
+2015-02-19 20:08:20.862656	encountered: 6000	 current logloss: 0.202911	 difference : 7.712632
+2015-02-19 20:08:38.159152	encountered: 7000	 current logloss: 0.191922	 difference : 5.415690
+2015-02-19 20:08:55.481043	encountered: 8000	 current logloss: 0.182121	 difference : 5.106555
+2015-02-19 20:09:12.885212	encountered: 9000	 current logloss: 0.173546	 difference : 4.708407
+2015-02-19 20:09:30.336396	encountered: 10000	 current logloss: 0.166956	 difference : 3.797359
+2015-02-19 20:09:47.813542	encountered: 11000	 current logloss: 0.160545	 difference : 3.840024
+2015-02-19 20:10:05.312196	encountered: 12000	 current logloss: 0.155048	 difference : 3.424292
+2015-02-19 20:10:22.845271	encountered: 13000	 current logloss: 0.150468	 difference : 2.953865
+
+======>   0.103858637315  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 19] [] False False True
+2015-02-19 20:11:03.030094	encountered: 1000	 current logloss: 0.383959	 difference : 61.604074
+2015-02-19 20:11:19.636749	encountered: 2000	 current logloss: 0.307432	 difference : 19.930967
+2015-02-19 20:11:36.498587	encountered: 3000	 current logloss: 0.261914	 difference : 14.805972
+2015-02-19 20:11:53.500405	encountered: 4000	 current logloss: 0.237943	 difference : 9.152210
+2015-02-19 20:12:10.632783	encountered: 5000	 current logloss: 0.219721	 difference : 7.658298
+2015-02-19 20:12:27.833299	encountered: 6000	 current logloss: 0.202987	 difference : 7.615765
+2015-02-19 20:12:45.104439	encountered: 7000	 current logloss: 0.192181	 difference : 5.323416
+2015-02-19 20:13:02.395523	encountered: 8000	 current logloss: 0.182299	 difference : 5.142483
+2015-02-19 20:13:19.754856	encountered: 9000	 current logloss: 0.173580	 difference : 4.782787
+2015-02-19 20:13:37.178400	encountered: 10000	 current logloss: 0.167036	 difference : 3.769811
+2015-02-19 20:13:54.612545	encountered: 11000	 current logloss: 0.160552	 difference : 3.881766
+2015-02-19 20:14:12.076229	encountered: 12000	 current logloss: 0.154976	 difference : 3.472863
+2015-02-19 20:14:29.563812	encountered: 13000	 current logloss: 0.150373	 difference : 2.970465
+
+======>   0.10139141941  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 20] [] False False True
+2015-02-19 20:15:09.737293	encountered: 1000	 current logloss: 0.383809	 difference : 61.619109
+2015-02-19 20:15:26.330747	encountered: 2000	 current logloss: 0.307842	 difference : 19.792772
+2015-02-19 20:15:43.175170	encountered: 3000	 current logloss: 0.262483	 difference : 14.734528
+2015-02-19 20:16:00.141576	encountered: 4000	 current logloss: 0.238680	 difference : 9.068640
+2015-02-19 20:16:17.228075	encountered: 5000	 current logloss: 0.220295	 difference : 7.702717
+2015-02-19 20:16:34.397264	encountered: 6000	 current logloss: 0.203382	 difference : 7.677561
+2015-02-19 20:16:51.632387	encountered: 7000	 current logloss: 0.192316	 difference : 5.440631
+2015-02-19 20:17:08.899707	encountered: 8000	 current logloss: 0.182419	 difference : 5.146331
+2015-02-19 20:17:26.231409	encountered: 9000	 current logloss: 0.173657	 difference : 4.803210
+2015-02-19 20:17:43.617896	encountered: 10000	 current logloss: 0.166970	 difference : 3.850850
+2015-02-19 20:18:01.025516	encountered: 11000	 current logloss: 0.160589	 difference : 3.821736
+2015-02-19 20:18:18.455673	encountered: 12000	 current logloss: 0.155031	 difference : 3.460603
+2015-02-19 20:18:35.903431	encountered: 13000	 current logloss: 0.150384	 difference : 2.997744
+
+======>   0.0990138341532  <======	 sizeIdx :  0
+
+**************************************
+training started for  [18, 17, 21] [] False False True
+2015-02-19 20:19:16.076362	encountered: 1000	 current logloss: 0.384187	 difference : 61.581252
+2015-02-19 20:19:32.661223	encountered: 2000	 current logloss: 0.307719	 difference : 19.903894
+2015-02-19 20:19:49.491700	encountered: 3000	 current logloss: 0.261690	 difference : 14.958263
+2015-02-19 20:20:06.462374	encountered: 4000	 current logloss: 0.237911	 difference : 9.086779
+2015-02-19 20:20:23.548600	encountered: 5000	 current logloss: 0.219738	 difference : 7.638284
+2015-02-19 20:20:40.713153	encountered: 6000	 current logloss: 0.203038	 difference : 7.600174
