@@ -10,3 +10,6 @@ You may download the files at :
 
 And create the validation and testing set with "rewriteFile.py"
 /!\ change the data path
+
+#Results
+Results are in the file named "data"
